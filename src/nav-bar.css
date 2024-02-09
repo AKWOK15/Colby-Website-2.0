@@ -1,0 +1,9 @@
+.nav-bar{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:100%;
+}
+a{
+    text-decoration: none;
+}
