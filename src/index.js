@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import About from './about';
 import NavBar from './nav-bar';
+import PhotoCarousel from './photo-carousel';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <NavBar/>
+    <PhotoCarousel/>
     <About />
   </React.StrictMode>
 );
