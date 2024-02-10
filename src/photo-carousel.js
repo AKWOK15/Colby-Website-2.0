@@ -1,7 +1,7 @@
 import './photo-carousel.css'
 import { useState, useEffect, useRef, useReducer, useCallback } from 'react';
 function PhotoCarousel(){
-    const [photos, setPhotos]=useState(['ANW_4052.jpg', 'ANW_4401.jpg', 'ANW_4589.jpg']);
+    const [photos, setPhotos]=useState(['ANW_4052.jpg', 'ANW_4401.jpg', 'ANW_4214.jpg']);
     const [currentPhoto, setCurrentPhoto] = useState(photos[0]);
     const [count, setCount] = useState(0);
     setTimeout(()=>{
@@ -16,9 +16,9 @@ function PhotoCarousel(){
     }, 5000);
     console.log("photos[0]: " + photos[0]);
     return(
-        <div >
-            <img className="carousel" src={currentPhoto}></img>
-        </div>
+        <>
+            <img className="image" src={currentPhoto}></img>
+        </>
     )
 }
 export default PhotoCarousel;
