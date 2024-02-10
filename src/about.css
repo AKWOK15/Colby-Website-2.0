@@ -1,3 +1,7 @@
 .about{
-    margin-top:1000px;
+    text-align:center;
+    font-size:2em;
+    list-style:none;
+    /* background-color:#3C4A82; */
+    color:var(--secondary);
 }

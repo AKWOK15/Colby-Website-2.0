@@ -1,0 +1,58 @@
+/*Table for schedule*/
+table {
+    width: 90%;
+    margin: 0 5%;
+    border-collapse: collapse;
+    /*Gets rid of extra space between td*/
+          
+}
+
+/*Have some schedule settings in bigger screen view*/
+.row {
+    height: 10vh;
+
+}
+
+.row:nth-child(odd) {
+    background-color: var(--primary);
+    color:white;
+
+}
+td:nth-child(1):not(.schedule){
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+/*Rounds corner of logo area for table row*/
+td:nth-child(1) {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding:10px;
+}
+
+/*Rounds corner of date (TBD) area for table row*/
+td:nth-child(4) {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
+.vs {
+    background-color: var(--secondary);
+    color: white;
+    padding: 0 4px;
+    font-size: 0.7em;
+}
+.at {
+    font-size: 0.7em;
+    background-color: var(--secondary);
+    color:white;
+    padding: 0 4px;
+}
+.schedule-logo {
+    max-width: 8vh;
+    max-height: 8vh;
+    object-fit: fill;
+
+}

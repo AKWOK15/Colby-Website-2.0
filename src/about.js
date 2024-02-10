@@ -1,8 +1,15 @@
 import './about.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHockeyPuck} from '@fortawesome/free-solid-svg-icons'
 function About() {
   return (
     <div id="About" className="about">
-      Founded in 2019, Colby Club Hockey is one of the select club hockey teams associated with a liberal arts college. In 2020, we received membership into the American Collegiate Hockey Association (ACHA), and in 2021, we joined the Northeast Collegiate Hockey Association (NECHA), a division of the ACHA. We practice three times a week on campus at Colby’s Jack Kelly Rink and play a competitive schedule of 12 to 16 games. Our players have various hockey backgrounds ranging from introductory to prep school and junior hockey experience, but we welcome everyone regardless of skill level! Our student leadership team runs all club operations, including game scheduling, budget allocation/distribution, and team events. On the other hand, our coaching staff focuses on player development and team success through practices and games.
+      <li><FontAwesomeIcon className="icon" icon={faHockeyPuck}/>Members of the Northeast Collegiate Hockey Association of the ACHA</li>
+      <li><FontAwesomeIcon className="icon" icon={faHockeyPuck}/>3 On Campus Practices Per Week</li>
+      <li><FontAwesomeIcon className="icon" icon={faHockeyPuck}/>12 to 16 Game Schedule</li>
+      <li><FontAwesomeIcon className="icon" icon={faHockeyPuck}/>All Skill Levels Welcome</li>
+      <li><FontAwesomeIcon className="icon" icon={faHockeyPuck}/>Club operations handled by students</li>
+      <li><FontAwesomeIcon className="icon" icon={faHockeyPuck}/>Team success handled by coaches</li>
     </div>
   );
 }

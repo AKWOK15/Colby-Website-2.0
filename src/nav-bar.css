@@ -1,7 +1,3 @@
-/* :root is referencing root element whereas .root is for class */
-:root {
-    --colby-blue: #002877;
-}
 .colby-logo{
     width:5%;
     height:5;
@@ -12,14 +8,14 @@
     align-items: center;
     width: 100%;
     height:100px;
-    background: var(--colby-blue);
+    position:absolute;
 }
 .icon{
     margin-right:10px;
 }
-/* .nav-bar:hover{
-    background: var(--colby-blue);
-} */
+.nav-bar:hover{
+    background: var(--primary);
+}
 
 /* Styles underlining for menu*/
 .nav-link {
