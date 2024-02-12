@@ -4,7 +4,9 @@ import './index.css';
 import About from './about';
 import NavBar from './nav-bar';
 import MainImage from './main-image';
+import PhotoCarousel from './photo-carousel';
 import Schedule from './schedule';
+import ContactUs  from './contact-us';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,6 +16,8 @@ root.render(
     <MainImage/>
     <About />
     <Schedule />
+    <PhotoCarousel />
+    <ContactUs />
   </React.StrictMode>
 );
 

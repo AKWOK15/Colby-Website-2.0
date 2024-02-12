@@ -16,9 +16,9 @@ function PhotoCarousel(){
     }, 5000);
     console.log("photos[0]: " + photos[0]);
     return(
-        <>
+        <div className = 'carousel'>
             <img className="image" src={currentPhoto}></img>
-        </>
+        </div>
     )
 }
 export default PhotoCarousel;
