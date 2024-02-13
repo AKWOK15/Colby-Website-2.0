@@ -14,8 +14,7 @@ table {
 }
 
 .row:nth-child(odd) {
-    background-color: var(--primary);
-    color:white;
+    background-color: var(--secondary);
 
 }
 td:nth-child(1):not(.schedule){
@@ -39,16 +38,22 @@ td:nth-child(4) {
 
 
 .vs {
-    background-color: var(--secondary);
+    background-color: var(--primary);
     color: white;
     padding: 0 4px;
     font-size: 0.7em;
 }
 .at {
     font-size: 0.7em;
-    background-color: var(--secondary);
+    background-color: var(--grey);
     color:white;
     padding: 0 4px;
+}
+.win{
+    color: var(--green);
+}
+.loss{
+    color: red;
 }
 .schedule-logo {
     max-width: 8vh;

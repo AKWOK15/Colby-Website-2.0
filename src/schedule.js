@@ -6,7 +6,7 @@ function Schedule() {
                 <td className='schedule'><img className='schedule-logo' src={logo} /></td>
                 <td><span className={homeAway}>{homeAway}</span> {opponent}</td>
                 <td>{date}</td>
-                <td>{score}</td>
+                <td className= {score.charAt(0) =='W'?'win':score.charAt(0) =='L'?'loss':''}>{score}</td>
             </tr>
         )
     }
