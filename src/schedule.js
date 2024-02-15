@@ -1,5 +1,6 @@
 import './schedule.css'
 function Schedule() {
+    //add wins, losses, etc once database table is set up
     function game(logo, homeAway, opponent, date, score) {
         return (
             <tr className='row'>
@@ -12,7 +13,7 @@ function Schedule() {
     }
     return (
         <>
-            <header id='Schedule' className='class-header'></header>
+            <header id='Schedule' className='section-header'></header>
             <table>
                 <tbody>
                     {game('dartmouthlogo.png', 'vs', 'Dartmouth College', 'Oct 15/ 12 pm', 'T 3-3')}

@@ -7,12 +7,11 @@ function About() {
     <div>
       <div className="about">
         {/* <PhotoCarousel /> */}
-        <img src='mitch.png' className='image'></img>
         <div>
-          <header id="About" className='class-header'>About Us</header>
-          <p className='quote'>
+          <header id="About" className='section-header'>About Us</header>
+          {/* <p className='quote'>
             Quote
-          </p>
+          </p> */}
           <p>
             In 2020, we received membership into the American Collegiate Hockey Association (ACHA), and in 2021, we joined the Northeast Collegiate Hockey Association (NECHA), a division of the ACHA. 
           </p>  
@@ -23,6 +22,7 @@ function About() {
             Our student leadership team runs all club operations, including game scheduling, budget allocation/distribution, and team events. Meanwhile, our coaching staff focuses on player development and team success.
           </p>
         </div>
+        <img src='ANW_4189-2.jpg' className='image'></img>
         {/* <ul className='about-list'>
           <header id="About" className='class-header'>About Us</header>
           <li><FontAwesomeIcon className="icon" icon={faHockeyPuck} />Members of the Northeast Collegiate Hockey Association of the ACHA</li>

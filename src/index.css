@@ -21,13 +21,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.class-header{
-  /* margin: 5vh 5%; */
-  font-size:1.5em;
-}
 .section-header{
+  margin: 5vh 5%;
   font-style:bold;
-  font-size:32px;
+  color: var(--highlight);
+  font-size:2em;
   text-align:center;
+  text-transform:uppercase;
+  letter-spacing: .1rem;
 }
