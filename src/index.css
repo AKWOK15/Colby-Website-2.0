@@ -2,6 +2,7 @@
   --primary: #002877;
   --secondary: #F9FAFB;
   --grey: #707682;
+  --darker-grey: #646a75;
   --highlight: #FFD700 ;
   --green:  #2E8B57;
 }
@@ -15,6 +16,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overscroll-behavior: none;
 }
 
 code {
@@ -22,11 +24,14 @@ code {
     monospace;
 }
 .section-header{
-  margin: 5vh 5%;
+  margin: 0 5% 5vh 5%;
   font-style:bold;
   color: var(--highlight);
   font-size:2em;
   text-align:center;
   text-transform:uppercase;
   letter-spacing: .1rem;
+}
+.image{
+  width:100%;
 }

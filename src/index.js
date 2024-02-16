@@ -1,23 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import About from './about';
 import NavBar from './nav-bar';
 import MainImage from './main-image';
 import PhotoCarousel from './photo-carousel';
 import Schedule from './schedule';
-import ContactUs  from './contact-us';
+import Roster from './roster';
+import ContactUs from './contact-us';
+import Footer from './footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <NavBar/>
-    <MainImage/>
-    <About />
-    <Schedule />
-    <PhotoCarousel />
-    <ContactUs />
+      <NavBar />
+      <MainImage />
+      <About />
+      <Schedule />
+      <PhotoCarousel />
+      <Roster />
+      <ContactUs />
+      <Footer />
   </React.StrictMode>
 );
 

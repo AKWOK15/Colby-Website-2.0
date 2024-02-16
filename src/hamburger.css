@@ -1,0 +1,19 @@
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+}
+.x .bar:nth-child(2){
+   opacity: 0;
+}
+
+.x .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.x .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}

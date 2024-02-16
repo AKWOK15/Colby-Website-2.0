@@ -42,14 +42,14 @@ textarea:focus {
 input[type="submit"] {
     background-color: var(--highlight);
     color: white;
-    width: 20%;
     height: 3em;
+    width:auto;
     font-weight: bold;
     border-radius: 6px;
 }
 
 input[type="submit"]:hover {
-    background-color: #1e40af;
+    background-color: #e6be00;
 }
 
 ::placeholder {

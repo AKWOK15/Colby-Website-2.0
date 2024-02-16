@@ -3,23 +3,23 @@ import { useState, useEffect, useRef, useReducer, useCallback } from 'react';
 function ContactUs() {
     const [name, setName] = useState('');
     const handleName = (event) => {
-        setName(event.target.value)
+        setName(event.target.value);
 
     }
     const [email, setEmail] = useState('');
     const handleEmail = (event) => {
-        setEmail(event.target.value)
+        setEmail(event.target.value);
 
     }
     const [message, setMessage] = useState('');
     const handleMessage = (event) => {
-        setMessage(event.target.value)
+        setMessage(event.target.value);
 
     }
     return (
         <div class= 'contact-us'  id='Contact Us'>
             <header class="section-header">Contact Us</header>
-            <p class="contact-us-description">Have a question? Want to send feedback about the website? Let us know.</p>
+            <p class="contact-us-description">“Are you a prospective student? Have a question? Want to send feedback about the website? Let us know.</p>
             <form method="post" action="https://formsubmit.co/dc83790d397a3156283f67d4fe4b25e2">
                 <label for='name'>Name</label>
                 <input type="text" id='name' placeholder="Brian" value={name} onChange={handleName} required />

@@ -13,7 +13,7 @@ function Schedule() {
     }
     return (
         <>
-            <header id='Schedule' className='section-header'></header>
+            <header id='Schedule' className='section-header'>Schedule</header>
             <table>
                 <tbody>
                     {game('dartmouthlogo.png', 'vs', 'Dartmouth College', 'Oct 15/ 12 pm', 'T 3-3')}

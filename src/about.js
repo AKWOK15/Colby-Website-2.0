@@ -5,34 +5,27 @@ import PhotoCarousel from './photo-carousel';
 function About() {
   return (
     <div>
-      <div className="about">
-        {/* <PhotoCarousel /> */}
-        <div>
-          <header id="About" className='section-header'>About Us</header>
-          {/* <p className='quote'>
-            Quote
-          </p> */}
+      <header id="About" className='section-header'>About</header>
+      <div className='about'>
+        <div className="about-item">
+          <div>
+            <img src='ANW_4553.jpg' className='image'></img>
+            <p>
+              In 2020, we received membership into the American Collegiate Hockey Association (ACHA), and in 2021, we joined the Northeast Collegiate Hockey Association (NECHA), a division of the ACHA.
+            </p>
+            <p>
+              Our student leadership team runs all club operations, including game scheduling, budget allocation/distribution, and team events. Meanwhile, our coaching staff focuses on player development and team success.
+            </p>
+          </div>
+        </div>
+        <div className='about-item'>
+          <img src='rink.JPG' className="rink-image image"></img>
           <p>
-            In 2020, we received membership into the American Collegiate Hockey Association (ACHA), and in 2021, we joined the Northeast Collegiate Hockey Association (NECHA), a division of the ACHA. 
-          </p>  
-          <p>
-            We practice three times a week at Colby’s Jack Kelly Rink and play a schedule of 12 to 16 games. Our players have various hockey backgrounds ranging from introductory to prep school and junior hockey, but we welcome everyone regardless of skill level! 
-          </p>
-          <p>
-            Our student leadership team runs all club operations, including game scheduling, budget allocation/distribution, and team events. Meanwhile, our coaching staff focuses on player development and team success.
+            We practice three times a week at Colby’s Jack Kelly Rink and play a schedule of 12 to 16 games excluding playoffs. Our players have various hockey backgrounds ranging from introductory to prep school and junior hockey, but we welcome everyone regardless of skill level!
           </p>
         </div>
-        <img src='ANW_4189-2.jpg' className='image'></img>
-        {/* <ul className='about-list'>
-          <header id="About" className='class-header'>About Us</header>
-          <li><FontAwesomeIcon className="icon" icon={faHockeyPuck} />Members of the Northeast Collegiate Hockey Association of the ACHA</li>
-          <li><FontAwesomeIcon className="icon" icon={faHockeyPuck} />3 On Campus Practices Per Week</li>
-          <li><FontAwesomeIcon className="icon" icon={faHockeyPuck} />12 to 16 Game Schedule</li>
-          <li><FontAwesomeIcon className="icon" icon={faHockeyPuck} />All Skill Levels Welcome</li>
-          <li><FontAwesomeIcon className="icon" icon={faHockeyPuck} />Club operations handled by students</li>
-          <li><FontAwesomeIcon className="icon" icon={faHockeyPuck} />Team success handled by coaches</li>
-        </ul> */}
       </div>
+
     </div>
   );
 }
