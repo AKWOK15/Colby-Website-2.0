@@ -6,6 +6,10 @@
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
 }
+
+.x:hover, .hamburger:hover{
+    cursor: pointer;
+}
 .x .bar:nth-child(2){
    opacity: 0;
 }
