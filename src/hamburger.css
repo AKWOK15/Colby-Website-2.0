@@ -3,10 +3,12 @@
     width: 25px;
     height: 3px;
     background-color: white;
-    margin: 5px auto;
+    margin: 5px 0;
     transition: all 0.3s ease-in-out;
 }
-
+.hamburger, .x{
+    margin-right:5%;
+}
 .x:hover, .hamburger:hover{
     cursor: pointer;
 }
@@ -16,8 +18,10 @@
 
 .x .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
+    margin-right:5%;
 }
 
 .x .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+    margin-right:5%;
 }

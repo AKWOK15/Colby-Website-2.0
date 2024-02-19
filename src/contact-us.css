@@ -49,7 +49,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #e6be00;
+    background-color: var(--hover-highlight);
 }
 
 ::placeholder {

@@ -3,12 +3,12 @@
   --secondary: #F9FAFB;
   --grey: #707682;
   --darker-grey: #646a75;
-  --highlight: #FFD700 ;
+  --highlight: #f8bd0d ;
+  --hover-highlight: #e6be00;
   --green:  #2E8B57;
 }
-/* #E4DCCF
-#707682
-#2E8B57 */
+/* f4b908  */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -26,7 +26,7 @@ code {
 .section-header{
   margin: 0 5% 5vh 5%;
   font-style:bold;
-  color: var(--highlight);
+  color: var(--primary);
   font-size:2em;
   text-align:center;
   text-transform:uppercase;

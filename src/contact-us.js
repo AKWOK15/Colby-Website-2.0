@@ -19,7 +19,7 @@ function ContactUs() {
     return (
         <div class= 'contact-us'  id='Contact Us'>
             <header class="section-header">Contact Us</header>
-            <p class="contact-us-description">“Are you a prospective student? Have a question? Want to send feedback about the website? Let us know.</p>
+            <p class="contact-us-description">Are you a prospective student? Have a question? Want to send feedback about the website? Let us know.</p>
             <form method="post" action="https://formsubmit.co/dc83790d397a3156283f67d4fe4b25e2">
                 <label for='name'>Name</label>
                 <input type="text" id='name' placeholder="Brian" value={name} onChange={handleName} required />

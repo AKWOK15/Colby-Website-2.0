@@ -10,7 +10,7 @@ function Roster() {
     }
     return (
         <>
-            <header class='section-header'>Roster</header>
+            <header class='section-header' id='Roster'>Roster</header>
             <table class="roster-table">
                 <tbody>
                     {player('Aidan Aggarwal')}
