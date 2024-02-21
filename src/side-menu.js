@@ -1,7 +1,8 @@
 // import './side-menu.css';
-// function SideMenu() {
+// function sideMenu() {
 //     return (
-//         <div className='side-menu'>
+//         <div className={activeHamburger ? 'side-menu active' : 'side-menu'} onClick={handleClick}>
+//         {/* <div className='side-menu' onClick={handleClick}> */}
 //             <a href='https://colbyathletics.com/sports/2021/11/17/giving-friends-of-recreation.aspx' className="side-link"><button className='side-button'>Donate</button></a>
 //             <a href='https://www.youtube.com/@ColbyRecreation' className='side-link'><button className='side-button'>Livestream</button></a>
 //             <a href="#About" className="side-link">ABOUT</a>

@@ -7,9 +7,10 @@ function Hamburger() {
         console.log('click');
         setActiveHamburger(!activeHamburger);
     }
-    function sideMenu(){
+    function sideMenu() {
         return (
-            <div className='side-menu' onClick={handleClick}>
+            <div className={activeHamburger ? 'side-menu active' : 'side-menu'} onClick={handleClick}>
+            {/* <div className='side-menu' onClick={handleClick}> */}
                 <a href='https://colbyathletics.com/sports/2021/11/17/giving-friends-of-recreation.aspx' className="side-link"><button className='side-button'>Donate</button></a>
                 <a href='https://www.youtube.com/@ColbyRecreation' className='side-link'><button className='side-button'>Livestream</button></a>
                 <a href="#About" className="side-link">ABOUT</a>
@@ -26,7 +27,9 @@ function Hamburger() {
                 <span className="bar"></span>
                 <span className="bar"></span>
             </div>
-            {activeHamburger ? sideMenu() : <></>}
+            {/* Side menu needs to be sibling for z index to be successful */}
+            {sideMenu()}
+            {/* {activeHamburger ? sideMenu() : <></>} */}
         </>
     )
 }

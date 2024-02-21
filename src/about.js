@@ -19,7 +19,7 @@ function About() {
           </div>
         </div>
         <div className='about-item'>
-          <img src='rink.JPG' className="rink-image image"></img>
+          <img src='rink.png' className="rink-image image"></img>
           <p>
             We practice three times a week at Colby’s Jack Kelly Rink and play a schedule of 12 to 16 games excluding playoffs. Our players have various hockey backgrounds ranging from introductory to prep school and junior hockey, but we welcome everyone regardless of skill level!
           </p>

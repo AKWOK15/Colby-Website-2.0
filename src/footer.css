@@ -7,13 +7,14 @@
     display: flex;
     justify-content:center;
     align-items: center;
-}
-.icons{
-    /* grid-row-gap: 3rem; */
-    /* margin: 5vh 5%; */
+    color: var(--darker-grey);
 }
 .icon{
     height: 2rem;
     width: 2rem;
     margin: 0 5px;
+}
+.copyright{
+    height: 0.5rem;
+    width: 0.5rem;
 }

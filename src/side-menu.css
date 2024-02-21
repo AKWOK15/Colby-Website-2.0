@@ -1,13 +1,23 @@
 .side-menu{
     position:absolute;
     width:100%;
-    height:100vh;
     left:0;
+    /* top: -50vh; */
     top: 12vh;
-    background:var(--grey);
+    background-color:var(--grey);
     display:flex;
     flex-direction:column;
     align-items:start;
+    /* opacity:0; */
+    height:0;
+    transition: height 0.5s ease-in-out;
+    overflow:hidden;
+    /* z-index:0; */
+}
+.side-menu.active{
+    height:100vh;
+    /* top:12vh; */
+    /* opacity:1; */
 }
 .side-link{
     margin: 6vh 5% 0 5%;
@@ -15,21 +25,20 @@
     color:white;
 }
 .side-button{
-    background-color:var(--grey);
-    color:var(--secondary);
+    background-color:var(--highlight);
+    color:var(--grey);
     border-radius:6px;
+    border:none;
     font-weight: bold;
     height:3em;
     width:auto;
-    border: 2px solid white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+
 }
 .side-button:hover{
-    /* background-color: var(--darker-grey); */
-    color: var(--highlight);
-    border-color: var(--highlight);
+    background-color: var(--hover-highlight);
 }
 .side-link:hover{
     color:var(--highlight);

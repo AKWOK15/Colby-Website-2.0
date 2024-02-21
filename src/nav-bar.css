@@ -9,7 +9,8 @@
     width: 100%;
     height:12vh;
     position:fixed;
-    background: var(--primary)
+    background-color: var(--primary);
+    /* z-index:100; */
 }
 .options{
     display: flex;
