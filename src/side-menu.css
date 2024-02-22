@@ -4,7 +4,8 @@
     left:0;
     /* top: -50vh; */
     top: 12vh;
-    background-color:var(--grey);
+    /* background-color:var(--light-grey); */
+    background-color:var(--secondary);
     display:flex;
     flex-direction:column;
     align-items:start;
@@ -22,11 +23,11 @@
 .side-link{
     margin: 6vh 5% 0 5%;
     text-decoration: none;
-    color:white;
+    color:var(--primary);
 }
 .side-button{
     background-color:var(--highlight);
-    color:var(--grey);
+    color:var(--primary);
     border-radius:6px;
     border:none;
     font-weight: bold;

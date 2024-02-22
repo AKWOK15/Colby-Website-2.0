@@ -1,13 +1,16 @@
 :root {
   --primary: #002877;
   --secondary: #F9FAFB;
+  --light-grey: #D7D2CB;
   --grey: #707682;
   --darker-grey: #646a75;
   --highlight: #f8bd0d ;
   --hover-highlight: #e6be00;
   --green:  #2E8B57;
 }
-/* f4b908  */
+/* D7D2CB */
+/* 707682 */
+/* F2A900 */
 
 body {
   margin: 0;

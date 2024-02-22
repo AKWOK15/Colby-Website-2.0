@@ -1,19 +1,29 @@
 import './schedule.css'
+import { useState, useEffect } from 'react';
 function Schedule() {
     //add wins, losses, etc once database table is set up
+    const [scroll, setScroll] = useState(window.scrollY);
+    const handleScroll = () => {
+        setScroll(window.scrollY);
+    }
+    useEffect(() => {
+        console.log(scroll);
+    }, [scroll]);
+    window.addEventListener('scroll', handleScroll);
     function game(logo, homeAway, opponent, date, score) {
         return (
             <tr className='row'>
                 <td className='schedule'><img className='schedule-logo' src={logo} /></td>
                 <td><span className={homeAway}>{homeAway}</span> {opponent}</td>
                 <td>{date}</td>
-                <td className= {score.charAt(0) =='W'?'win':score.charAt(0) =='L'?'loss':''}>{score}</td>
+                <td className={score.charAt(0) == 'W' ? 'win' : score.charAt(0) == 'L' ? 'loss' : ''}>{score}</td>
             </tr>
         )
     }
     return (
-        <>
+        <div className='schedule'>
             <header id='Schedule' className='section-header'>Schedule</header>
+            <img src='mitch.png' className={scroll < 3000 ? (scroll > 1600 ? 'image background active' : 'image background') : 'image background'} />
             <table>
                 <tbody>
                     {game('dartmouthlogo.png', 'vs', 'Dartmouth College', 'Oct 15/ 12 pm', 'T 3-3')}
@@ -36,7 +46,7 @@ function Schedule() {
 
                 </tbody>
             </table>
-        </>
+        </div>
     );
 }
 

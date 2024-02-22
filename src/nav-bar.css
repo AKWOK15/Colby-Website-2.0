@@ -53,7 +53,7 @@
 
 .nav-bar-button{
     background-color:var(--highlight);
-    color:var(--secondary);
+    color:black;
     border-radius:6px;
     font-weight: bold;
     height:3em;

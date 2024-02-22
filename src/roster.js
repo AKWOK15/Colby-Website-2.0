@@ -2,7 +2,7 @@ import './schedule.css'
 function Roster() {
     function player(name, position) {
         return(
-            <tr class='row'>
+            <tr className='row'>
                 <td>{name}</td>
                 <td>{position}</td>
             </tr>
@@ -10,8 +10,8 @@ function Roster() {
     }
     return (
         <>
-            <header class='section-header' id='Roster'>Roster</header>
-            <table class="roster-table">
+            <header className='section-header' id='Roster'>Roster</header>
+            <table className="roster-table">
                 <tbody>
                     {player('Aidan Aggarwal')}
                     {player('Gabrielle Anusbigian')}

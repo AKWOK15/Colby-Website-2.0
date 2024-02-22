@@ -22,7 +22,7 @@ function Hamburger() {
     }
     return (
         <>
-            <div class={activeHamburger ? 'x' : "hamburger"} onClick={handleClick}>
+            <div className={activeHamburger ? 'x' : "hamburger"} onClick={handleClick}>
                 <span className="bar"></span>
                 <span className="bar"></span>
                 <span className="bar"></span>

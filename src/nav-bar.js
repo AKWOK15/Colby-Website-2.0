@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Hamburger from './hamburger';
 // import { useNavigate } from 'react-router-dom';
 function NavBar() {
-    const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth);
     const handleResize = () => {
         setScreenWidth(window.innerWidth);
     }
