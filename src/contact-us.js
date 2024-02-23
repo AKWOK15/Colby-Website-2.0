@@ -22,6 +22,7 @@ function ContactUs() {
         }
     // Submit form to Netlify
     const handleSubmit = (event) => {
+        event.preventDefault();
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -30,7 +31,6 @@ function ContactUs() {
             .then(() => alert("Success!"))
             .catch(error => alert(error));
 
-            event.preventDefault();
     };
 
     return (
@@ -40,11 +40,11 @@ function ContactUs() {
             <form method="post" name='contact' data-netlify="true" onSubmit={handleSubmit}>
                 {/* hidden input for Netlify to process submissions */}
                 <input type="hidden" name="form-name" value="contact" />
-                <label for='name'>Name</label>
+                <label htmlFor='name'>Name</label>
                 <input type="text" id='name' placeholder="Brian" value={name} onChange={handleName} required />
-                <label for='email'>Your email</label>
+                <label htmlFor='email'>Your email</label>
                 <input type='email' id='email' placeholder="gomules@gmail.com" value={email} onChange={handleEmail} required />
-                <label for='message'>Your message</label>
+                <label htmlFor='message'>Your message</label>
                 <textarea id='message' rows="10" columns="30" placeholder="Leave a comment" value={message} onChange={handleMessage} required></textarea>
                 <input type="submit" value="Submit" />
             </form>
