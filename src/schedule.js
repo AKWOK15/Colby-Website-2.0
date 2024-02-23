@@ -6,9 +6,9 @@ function Schedule() {
     const handleScroll = () => {
         setScroll(window.scrollY);
     }
-    useEffect(() => {
-        console.log(scroll);
-    }, [scroll]);
+    // useEffect(() => {
+    //     console.log(scroll);
+    // }, [scroll]);
     window.addEventListener('scroll', handleScroll);
     function game(logo, homeAway, opponent, date, score) {
         return (
@@ -23,7 +23,10 @@ function Schedule() {
     return (
         <div className='schedule'>
             <header id='Schedule' className='section-header'>Schedule</header>
-            <img src='mitch.png' className={scroll < 3000 ? (scroll > 1600 ? 'image background active' : 'image background') : 'image background'} />
+            {/* {3000 > scroll ? (scroll > 1600 ? <img src='mitch.png' className='image active'/> : <></>) : <></>} */}
+            <div className='background-container'>
+                <img src='frontrink.jpg' className={scroll < 3500 ? (scroll > 1600 ? 'image background active' : 'image background') : 'image background'} />
+            </div>
             <table>
                 <tbody>
                     {game('dartmouthlogo.png', 'vs', 'Dartmouth College', 'Oct 15/ 12 pm', 'T 3-3')}
