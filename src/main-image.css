@@ -1,0 +1,8 @@
+.main{
+    object-fit: cover;
+    object-position: center;
+    height: 100vh;
+    width:100vw;
+    overflow-x: auto;
+    overflow:hidden;
+}

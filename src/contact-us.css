@@ -1,6 +1,11 @@
 /*Contact us section*/
+@media(max-width: 1200px){
+    .contact-us{
+        margin: 0 15% !important;
+    }
+}
 .contact-us {
-    padding: 0 30%;
+    margin: 0 30%;
     align-content: center;
     background-color: white;
     color: black;
