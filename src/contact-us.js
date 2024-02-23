@@ -20,7 +20,7 @@ function ContactUs() {
         <div className= 'contact-us'  id='Contact Us'>
             <header className="section-header">Contact Us</header>
             <p className="contact-us-description">Are you a prospective student? Have a question? Want to send feedback about the website? Let us know.</p>
-            <form method="post" action="https://formsubmit.co/dc83790d397a3156283f67d4fe4b25e2">
+            <form method="post" name='contact' data-netlify="true">
                 <label for='name'>Name</label>
                 <input type="text" id='name' placeholder="Brian" value={name} onChange={handleName} required />
                 <label for='email'>Your email</label>
