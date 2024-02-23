@@ -1,6 +1,7 @@
+import main from './images/main.png';
 function MainImage(){
  return(
-    <img src='ANW_4589.png' className='image'></img>
+    <img src={main} className='image'></img>
  )
 }
 export default MainImage;

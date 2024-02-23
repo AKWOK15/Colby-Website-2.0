@@ -2,6 +2,7 @@ import './nav-bar.css'
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import Hamburger from './hamburger';
+import logo from './images/colby.png'
 // import { useNavigate } from 'react-router-dom';
 function NavBar() {
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -11,7 +12,7 @@ function NavBar() {
     window.addEventListener('resize', handleResize);
     return (
         <div className="nav-bar">
-            <img className="colby-logo" src='./colbyclubhockeylogo.png'></img>
+            <img className="colby-logo" src={logo}></img>
             {screenWidth > 1000 ? (
                 <div className='options'>
                     <a href="#About" className="nav-link">ABOUT</a>

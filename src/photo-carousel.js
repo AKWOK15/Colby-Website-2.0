@@ -1,7 +1,10 @@
-import './photo-carousel.css'
+import './photo-carousel.css';
 import { useState, useEffect, useRef, useReducer, useCallback } from 'react';
+import carousel0 from './images/carousel0.jpg';
+import carousel1 from './images/carousel1.jpg';
+import carousel2 from './images/carousel2.jpg';
 function PhotoCarousel(){
-    const [photos, setPhotos]=useState(['ANW_4052.jpg', 'ANW_4401.jpg', 'ANW_4214.jpg']);
+    const [photos, setPhotos]=useState([carousel0, carousel1, carousel2]);
     const [currentPhoto, setCurrentPhoto] = useState(photos[0]);
     const [count, setCount] = useState(0);
     setTimeout(()=>{
@@ -14,7 +17,6 @@ function PhotoCarousel(){
             setCount(count+1);
         }
     }, 5000);
-    console.log("photos[0]: " + photos[0]);
     return(
         <div className = 'carousel'>
             <img className="image" src={currentPhoto}></img>

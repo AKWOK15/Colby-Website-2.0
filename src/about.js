@@ -2,6 +2,8 @@ import './about.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHockeyPuck } from '@fortawesome/free-solid-svg-icons'
 import PhotoCarousel from './photo-carousel';
+import rink from './images/rink.png';
+import about1 from './images/about1.jpg';
 function About() {
   return (
     <div>
@@ -9,7 +11,7 @@ function About() {
       <div className='about'>
         <div className="about-item">
           <div>
-            <img src='ANW_4553.jpg' className='image'></img>
+            <img src={about1} className='image'></img>
             <p>
               In 2020, we received membership into the American Collegiate Hockey Association (ACHA), and in 2021, we joined the Northeast Collegiate Hockey Association (NECHA), a division of the ACHA.
             </p>
@@ -19,7 +21,7 @@ function About() {
           </div>
         </div>
         <div className='about-item'>
-          <img src='rink.png' className="rink-image image"></img>
+          <img src={rink} className="rink-image image"></img>
           <p>
             We practice three times a week at Colby’s Jack Kelly Rink and play a schedule of 12 to 16 games excluding playoffs. Our players have various hockey backgrounds ranging from introductory to prep school and junior hockey, but we welcome everyone regardless of skill level!
           </p>
