@@ -14,13 +14,29 @@ function ContactUs() {
     const [message, setMessage] = useState('');
     const handleMessage = (event) => {
         setMessage(event.target.value);
-
     }
+    const encode = (data) => {
+        return Object.keys(data)
+            .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+            .join("&");
+        }
+    const handleSubmit = (event) => {
+        fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: encode({ "form-name": "contact", name, email, message})
+        })
+            .then(() => alert("Success!"))
+            .catch(error => alert(error));
+
+            event.preventDefault();
+    };
+
     return (
         <div className='contact-us' id='Contact Us'>
             <header className="section-header">Contact Us</header>
             <p className="contact-us-description">Are you a prospective student? Have a question? Want to send feedback about the website? Let us know.</p>
-            <form method="post" name='contact' data-netlify="true">
+            <form method="post" name='contact' onSubmit={handleSubmit}>
                 {/* hidden input for Netlify to process submissions */}
                 <input type="hidden" name="form-name" value="contact" />
                 <label for='name'>Name</label>
