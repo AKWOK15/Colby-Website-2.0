@@ -20,6 +20,7 @@ function ContactUs() {
             .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
             .join("&");
         }
+    // Submit form to Netlify
     const handleSubmit = (event) => {
         fetch("/", {
             method: "POST",
@@ -36,7 +37,7 @@ function ContactUs() {
         <div className='contact-us' id='Contact Us'>
             <header className="section-header">Contact Us</header>
             <p className="contact-us-description">Are you a prospective student? Have a question? Want to send feedback about the website? Let us know.</p>
-            <form method="post" name='contact' onSubmit={handleSubmit}>
+            <form method="post" name='contact' data-netlify="true" onSubmit={handleSubmit}>
                 {/* hidden input for Netlify to process submissions */}
                 <input type="hidden" name="form-name" value="contact" />
                 <label for='name'>Name</label>
