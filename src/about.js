@@ -4,6 +4,7 @@ import { faHockeyPuck } from '@fortawesome/free-solid-svg-icons'
 import PhotoCarousel from './photo-carousel';
 import rink from './images/rink.png';
 import about1 from './images/about1.jpg';
+import temp from './images/ANW_4189.jpg'
 function About() {
   return (
     <div>
@@ -11,7 +12,7 @@ function About() {
       <div className='about'>
         <div className="about-item">
           <div>
-            <img src={about1} className='image'></img>
+            <img src={temp} className='image'></img>
             <p>
               In 2020, we received membership into the American Collegiate Hockey Association (ACHA), and in 2021, we joined the Northeast Collegiate Hockey Association (NECHA), a division of the ACHA.
             </p>
