@@ -56,7 +56,7 @@ function ContactUs() {
     //         <p className="contact-us-description">Are you a prospective student? Have a question? Want to send feedback about the website? Let us know.</p>
     //         <form method="POST" name='contact' data-netlify="true">
     //             {/* hidden input for Netlify to process submissions */}
-    //             <input type="hidden" name="form-name" value="contact" />
+    //             <input type="hidden" name="form-name" value='contact' />
     //             <label htmlFor='name'>Name</label>
     //             <input type="text" id='name' name="name" placeholder="Brian" required />
     //             <label htmlFor='email'>Your email</label>
