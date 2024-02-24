@@ -2,3 +2,11 @@
     width:70%;
     margin: 5vh 15%;
 }
+/* .carousel-image{
+    object-fit: cover;
+    object-position: center;
+    height: 40vh;
+    width:100%;
+    overflow-x: auto;
+    overflow:hidden;
+} */

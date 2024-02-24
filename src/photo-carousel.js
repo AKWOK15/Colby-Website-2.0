@@ -3,9 +3,9 @@ import { useState, useEffect, useRef, useReducer, useCallback } from 'react';
 import carousel0 from './images/carousel0.jpg';
 import carousel1 from './images/carousel1.jpg';
 import carousel2 from './images/carousel2.jpg';
-import main from './images/main.png';
+import temp from './images/ANW_4189.jpg'
 function PhotoCarousel(){
-    const [photos, setPhotos]=useState([main, carousel1, carousel2]);
+    const [photos, setPhotos]=useState([temp, carousel1, carousel2]);
     const [currentPhoto, setCurrentPhoto] = useState(photos[0]);
     const [count, setCount] = useState(0);
     setTimeout(()=>{
