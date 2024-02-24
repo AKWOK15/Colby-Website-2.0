@@ -54,7 +54,7 @@ function ContactUs() {
         <div className='contact-us' id='Contact Us'>
             <header className="section-header">Contact Us</header>
             <p className="contact-us-description">Are you a prospective student? Have a question? Want to send feedback about the website? Let us know.</p>
-            <form method="POST" name='contact' data-netlify="true">
+            <form method="POST" name='contact' data-netlify="true" onSubmit="submit">
                 {/* hidden input for Netlify to process submissions */}
                 <input type="hidden" name="form-name" value="contact" />
                 <label htmlFor='name'>Name</label>
@@ -63,7 +63,7 @@ function ContactUs() {
                 <input type='email' id='email' name="email"placeholder="gomules@gmail.com" required />
                 <label htmlFor='message'>Your message</label>
                 <textarea id='message' rows="10" columns="30" name="message" placeholder="Leave a comment" required></textarea>
-                <input type="submit" value="Submit" />
+                <button type="submit">Submit</button> 
             </form>
         </div>
     )

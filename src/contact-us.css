@@ -44,16 +44,19 @@ textarea:focus {
 
 }
 
-input[type="submit"] {
+button[type="submit"] {
     background-color: var(--highlight);
-    color: white;
+    color: black;
     height: 3em;
     width:auto;
     font-weight: bold;
+    font-size: 0.875rem;
     border-radius: 6px;
+    margin-top: 10px;
+    border:none;
 }
 
-input[type="submit"]:hover {
+button[type="submit"]:hover {
     background-color: var(--hover-highlight);
 }
 
