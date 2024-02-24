@@ -1,17 +1,25 @@
 import './contact-us.css';
 import { useState, useEffect, useRef, useReducer, useCallback } from 'react';
 function ContactUs() {
-    const [name, setName] = useState('');
+    //saves info for contact us form if user refreshes page
+    const useStorageState = (key, initialState) => {
+        const [value, setValue] = useState(localStorage.getItem(key) || initialState);
+        useEffect(()=>{
+            localStorage.setItem(key, value);
+        }, [key, value]);
+        return ([value, setValue]);
+    }
+    const [name, setName] = useStorageState('name','');
     const handleName = (event) => {
         setName(event.target.value);
 
     }
-    const [email, setEmail] = useState('');
+    const [email, setEmail] = useStorageState('email','');
     const handleEmail = (event) => {
         setEmail(event.target.value);
 
     }
-    const [message, setMessage] = useState('');
+    const [message, setMessage] = useStorageState('message','');
     const handleMessage = (event) => {
         setMessage(event.target.value);
     }
@@ -32,7 +40,6 @@ function ContactUs() {
             .catch(error => alert(error));
 
     };
-
     return (
         <div className='contact-us' id='Contact Us'>
             <header className="section-header">Contact Us</header>
@@ -50,23 +57,6 @@ function ContactUs() {
             </form>
         </div>
     )
-    // return (
-    //     <div className='contact-us' id='Contact Us'>
-    //         <header className="section-header">Contact Us</header>
-    //         <p className="contact-us-description">Are you a prospective student? Have a question? Want to send feedback about the website? Let us know.</p>
-    //         <form method="POST" name='contact' data-netlify="true">
-    //             {/* hidden input for Netlify to process submissions */}
-    //             <input type="hidden" name="form-name" value='contact' />
-    //             <label htmlFor='name'>Name</label>
-    //             <input type="text" id='name' name="name" placeholder="Brian" required />
-    //             <label htmlFor='email'>Your email</label>
-    //             <input type='email' id='email' name="email" placeholder="gomules@gmail.com" required />
-    //             <label htmlFor='message'>Your message</label>
-    //             <textarea id='message' rows="10" cols="30" name="message" placeholder="Leave a comment" required></textarea>
-    //             <button type="submit">Submit</button> 
-    //         </form>
-    //     </div>
-    // )
 }
 
 export default ContactUs;
