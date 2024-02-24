@@ -60,7 +60,7 @@ function ContactUs() {
                 <label htmlFor='name'>Name</label>
                 <input type="text" id='name' name="name" placeholder="Brian" required />
                 <label htmlFor='email'>Your email</label>
-                <input type='email' id='email' name="email"placeholder="gomules@gmail.com" required />
+                <input type='email' id='email' name="email" placeholder="gomules@gmail.com" required />
                 <label htmlFor='message'>Your message</label>
                 <textarea id='message' rows="10" cols="30" name="message" placeholder="Leave a comment" required></textarea>
                 <button type="submit">Submit</button> 
