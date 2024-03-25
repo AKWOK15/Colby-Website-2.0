@@ -7,6 +7,8 @@
   --highlight: #f8bd0d ;
   --hover-highlight: #e6be00;
   --green:  #2E8B57;
+    /* define the amount of space to be given from within the element or from outside the element whenever a scroll event occurs. Does not apply when regularly scrolling because there is no snap position, only href will have a snap position*/
+  scroll-padding-top:14vh;
 }
 /* D7D2CB */
 /* 707682 */

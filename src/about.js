@@ -2,8 +2,9 @@ import './about.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHockeyPuck } from '@fortawesome/free-solid-svg-icons'
 import PhotoCarousel from './photo-carousel';
-import rink from './images/rink.png';
+import rink from './images/siderink.jpg';
 import carousel0 from './images/carousel0.jpg';
+import main from './images/main.png';
 function About() {
   return (
     <div>
