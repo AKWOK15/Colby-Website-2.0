@@ -10,7 +10,7 @@
     /* define the amount of space to be given from within the element or from outside the element whenever a scroll event occurs. Does not apply when regularly scrolling because there is no snap position, only href will have a snap position*/
   scroll-padding-top:14vh;
 }
-@media (min-width: 1500){
+@media (min-width: 1500px){
   *{
     font-size:1.2rem;
   }
