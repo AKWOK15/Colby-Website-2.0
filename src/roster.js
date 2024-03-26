@@ -46,9 +46,11 @@ function Roster() {
     const handleChange = (event)=>{
         setRosterYear(event.target.value);
     }
-    useEffect(()=>{
-        console.log(rosterYear);
-    }, [rosterYear]);
+    useEffect(
+        Object.entries(roster).map(([id, player]) => {
+            {/* return info(player['name'], player['number'], player['position'], player['height'], player['weight'], player['hand'], player['town']); */}
+            console.log(player['name']);
+    }, [roster]));
     return (
         <div className='roster'>
             <header className='section-header' id='Roster'>Roster</header>
@@ -64,7 +66,8 @@ function Roster() {
                         </td>
                     </tr>
                     {roster? Object.entries(roster).map(([id, player]) => {
-                        return info(player['name'], player['number'], player['position'], player['height'], player['weight'], player['hand'], player['town']);
+                        {/* return info(player['name'], player['number'], player['position'], player['height'], player['weight'], player['hand'], player['town']); */}
+                        return info(player['name']);
                     }):null}
                     {/* {player('Aidan Aggarwal')}
                     {player('Gabrielle Anusbigian')}
