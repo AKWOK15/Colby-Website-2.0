@@ -35,10 +35,10 @@ function Roster() {
             <tr className='row'>
                 <td>{name}</td>
                 <td>{number}</td>
-                {/* <td>{position}</td>
+                <td>{position}</td>
                 <td>{height}</td>
                 <td>{weight}</td>
-                <td>{hand}</td> */}
+                <td>{hand}</td> 
                 <td>{town}</td>
             </tr>
         )
@@ -46,37 +46,25 @@ function Roster() {
     const handleChange = (event)=>{
         setRosterYear(event.target.value);
     }
-    // useEffect(
-    //     Object.entries(roster).map(([id, player]) => {
-    //         {/* return info(player['name'], player['number'], player['position'], player['height'], player['weight'], player['hand'], player['town']); */}
-    //         console.log(player['name']);
-    // }, [roster]));
+
     return (
-        <div className='roster'>
+        <>
             <header className='section-header' id='Roster'>Roster</header>
-            <table className="roster-table">
-                <tbody> 
-                    <tr>
-                        {/* tr can only contain td */}
-                        <td>
-                            <select className="roster-year" onChange={handleChange} value = {rosterYear}>
-                                <option value= "2023">2023 - 2024</option>
-                                <option value="2022">2022 - 2023</option>
-                            </select>
-                        </td>
-                    </tr>
-                    {roster? Object.entries(roster).map(([id, player]) => {
-                        return info(player['name'], player['number'], player['position'], player['height'], player['weight'], player['hand'], player['town']);
-                    }):null}
-                    {/* {player('Aidan Aggarwal')}
-                    {player('Gabrielle Anusbigian')}
-                    {player('John Bloomer')}
-                    {player('Bear Brooks')}
-                    {player('Brendan Bullock')}
-                    {player('Mitchell Ham')} */}
-                </tbody>
-            </table>
-        </div>
+            <select className="roster-year" onChange={handleChange} value = {rosterYear}>
+                <option value= "2023">2023 - 2024</option>
+                <option value="2022">2022 - 2023</option>
+            </select>
+            <div className='roster'>
+                <table>
+                    <tbody> 
+                        {info('Player', '#', 'Pos', 'Ht', 'Wt', 'Sh', 'Birthplace')}
+                        {roster? Object.entries(roster).map(([id, player]) => {
+                            return info(player['name'], player['number'], player['position'], player['height'], player['weight'], player['hand'], player['town']);
+                        }):null}
+                    </tbody>
+                </table>
+            </div>
+        </>
     )
 }
 export default Roster;

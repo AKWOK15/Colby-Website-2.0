@@ -1,13 +1,14 @@
 
 .roster{
-    margin: 5vh 10%;
+
+    overflow-x: scroll;
 }
 .roster-year{
     border-radius: 2px;
     padding:5px;
     font-size:1.05rem;
     width:auto;
-    margin-bottom: 10px;
+    margin: 0 15% 10px 15%;
     border:none;
     background-color: var(--light-grey);
     color:var(--grey);
@@ -16,5 +17,5 @@
     background-position: 94% 50%; */
 }
 .roster-year:hover{
-    background-color: var(--darker-grey);
+    background-color: var(--grey);
 }
