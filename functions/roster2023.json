@@ -1,4 +1,4 @@
 [
-    {"name": "Aidan Kwok", "position": "D", "height":"6-0", "weight":"190", "hand": "R", "town": "Emerald Hills"},
-    {"name": "Gabrielle Anusbigian", "position": "F", "height":"5-2", "weight":"110", "hand": "R", "town": "NA"}
+    {"name": "Aidan Kwok", "number": "5", "position": "D", "height":"6-0", "weight":"190", "hand": "R", "town": "Emerald Hills"},
+    {"name": "Gabrielle Anusbigian", "number": "1", "position": "F", "height":"5-2", "weight":"110", "hand": "R", "town": "NA"}
 ]
