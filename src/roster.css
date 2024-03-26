@@ -19,3 +19,6 @@
 .roster-year:hover{
     background-color: var(--grey);
 }
+td{
+    white-space: nowrap
+}
