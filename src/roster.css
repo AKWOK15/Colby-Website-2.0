@@ -1,0 +1,20 @@
+
+.roster{
+    margin: 5vh 10%;
+}
+.roster-year{
+    border-radius: 2px;
+    padding:5px;
+    font-size:1.05rem;
+    width:auto;
+    margin-bottom: 10px;
+    border:none;
+    background-color: var(--light-grey);
+    color:var(--grey);
+    /* background-image: url(./images/arrow.svg);
+    background-repeat:no-repeat;
+    background-position: 94% 50%; */
+}
+.roster-year:hover{
+    background-color: var(--darker-grey);
+}

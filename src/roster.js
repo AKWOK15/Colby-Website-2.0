@@ -7,7 +7,7 @@ function Roster() {
     useEffect(() => {
         async function getRoster() {
             try {
-                const response = await fetch('https://colbyclubhockey.netlify.app/.netlify/functions/getroster', {
+                const response = await fetch(`https://colbyclubhockey.netlify.app/.netlify/functions/getroster?year=${rosterYear}`, {
                     method: "GET",
                     headers: {
                         'Content-Type': 'application/json',
@@ -66,8 +66,7 @@ function Roster() {
                         </td>
                     </tr>
                     {roster? Object.entries(roster).map(([id, player]) => {
-                        {/* return info(player['name'], player['number'], player['position'], player['height'], player['weight'], player['hand'], player['town']); */}
-                        return info(player['name']);
+                        return info(player['name'], player['number'], player['position'], player['height'], player['weight'], player['hand'], player['town']);
                     }):null}
                     {/* {player('Aidan Aggarwal')}
                     {player('Gabrielle Anusbigian')}
