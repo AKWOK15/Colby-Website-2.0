@@ -1,4 +1,5 @@
 import './schedule.css'
+import './table.css'
 import { useState, useEffect } from 'react';
 import frontRink from './images/frontrink.jpg';
 import bates from './images/bates.svg';
@@ -30,8 +31,9 @@ function Schedule() {
         )
     }
     return (
-        <div className='schedule'>
+        <>
             <header id='Schedule' className='section-header'>Schedule</header>
+        <div className='schedule'>
             {/* {3000 > scroll ? (scroll > 1600 ? <img src='mitch.png' className='image active'/> : <></>) : <></>} */}
             <div className='background-container'>
                 <img src={frontRink} className={scroll < 3500 ? (scroll > 1600 ? 'image background active' : 'image background') : 'image background'} />
@@ -54,11 +56,10 @@ function Schedule() {
                     {game(wit, 'vs', 'Wentworth Institute of Technology', 'Jan 28/ 2 pm', 'W 6-1')}
                     {game(thomas, 'vs', 'Thomas College', 'Nov 2/ 8:30 pm', 'W 4-1')}
                     {game(bates, 'vs', 'Bates College', 'Feb 9/ 7 pm', 'W 5-0')}
-
-
                 </tbody>
             </table>
         </div>
+        </>
     );
 }
 

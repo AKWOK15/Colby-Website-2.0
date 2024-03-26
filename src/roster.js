@@ -1,5 +1,5 @@
-import './schedule.css';
-import './roster.css'
+import './table.css';
+import './roster.css';
 import {useState, useEffect } from 'react';
 function Roster() {
     const [roster, setRoster] = useState();

@@ -24,7 +24,3 @@
 .roster-year:hover{
     background-color: var(--grey);
 }
-td{
-    white-space: nowrap;
-    padding-right: 40px;
-}
