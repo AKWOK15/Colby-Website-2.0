@@ -34,10 +34,9 @@ function Schedule() {
         <>
             <header id='Schedule' className='section-header'>Schedule</header>
             <div className='background-container'>
-                    <img src={frontRink} className={scroll < 3500 ? (scroll > 1600 ? 'image background active' : 'image background') : 'image background'} />
-                </div>
+                <img src={frontRink} className={scroll < 3500 ? (scroll > 1600 ? 'image background active' : 'image background') : 'image background'} />
+            </div>
             <div className='schedule'>
-                {/* {3000 > scroll ? (scroll > 1600 ? <img src='mitch.png' className='image active'/> : <></>) : <></>} */}
                 <table>
                     <tbody>
                         {game(dartmouth, 'vs', 'Dartmouth College', 'Oct 15/ 12 pm', 'T 3-3')}
@@ -56,6 +55,7 @@ function Schedule() {
                         {game(wit, 'vs', 'Wentworth Institute of Technology', 'Jan 28/ 2 pm', 'W 6-1')}
                         {game(thomas, 'vs', 'Thomas College', 'Nov 2/ 8:30 pm', 'W 4-1')}
                         {game(bates, 'vs', 'Bates College', 'Feb 9/ 7 pm', 'W 5-0')}
+
                     </tbody>
                 </table>
             </div>

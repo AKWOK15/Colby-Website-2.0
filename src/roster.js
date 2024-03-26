@@ -58,7 +58,7 @@ function Roster() {
                 <table className='player-table'>
                     <tbody> 
                         {info('Player', '#', 'Pos', 'Ht', 'Wt', 'Sh', 'Birthplace')}
-                        {info('Aidan Kwok', '5', 'D', '6-0', '195', 'R', 'Emerald Hills')}
+                        {/* {info('Aidan Kwok', '5', 'D', '6-0', '195', 'R', 'Emerald Hills')} */}
                         {roster? Object.entries(roster).map(([id, player]) => {
                             return info(player['name'], player['number'], player['position'], player['height'], player['weight'], player['hand'], player['town']);
                         }):null}

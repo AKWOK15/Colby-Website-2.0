@@ -17,12 +17,7 @@ td{
     white-space: nowrap;
     padding-right: 40px;
 }
-td:nth-child(1):not(.schedule){
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-}
+
 /*Rounds corner of logo area for table row*/
 td:nth-child(1) {
     border-top-left-radius: 3px;
