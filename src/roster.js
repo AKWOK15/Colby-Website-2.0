@@ -33,13 +33,13 @@ function Roster() {
     function info(name, number, position, height, weight, hand, town) {
         return (
             <tr className='row'>
-                <td>{name}</td>
-                <td>{number}</td>
-                <td>{position}</td>
-                <td>{height}</td>
-                <td>{weight}</td>
-                <td>{hand}</td> 
-                <td>{town}</td>
+                <td className="player-data">{name}</td>
+                <td className="player-data">{number}</td>
+                <td className="player-data">{position}</td>
+                <td className="player-data">{height}</td>
+                <td className="player-data">{weight}</td>
+                <td className="player-data">{hand}</td> 
+                <td className="player-data">{town}</td>
             </tr>
         )
     }
@@ -55,9 +55,10 @@ function Roster() {
                 <option value="2022">2022 - 2023</option>
             </select>
             <div className='roster'>
-                <table>
+                <table className='player-table'>
                     <tbody> 
                         {info('Player', '#', 'Pos', 'Ht', 'Wt', 'Sh', 'Birthplace')}
+                        {info('Aidan Kwok', '5', 'D', '6-0', '195', 'R', 'Emerald Hills')}
                         {roster? Object.entries(roster).map(([id, player]) => {
                             return info(player['name'], player['number'], player['position'], player['height'], player['weight'], player['hand'], player['town']);
                         }):null}

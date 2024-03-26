@@ -20,12 +20,17 @@
     top:12vh;
     left:0;
 }
-table {
+.schedule {
+    overflow-x: scroll;
     width: 70%;
     margin: 0 15%;
-    border-collapse: collapse;
     /*Gets rid of extra space between td*/
           
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
 }
 
 /*Have some schedule settings in bigger screen view*/
@@ -48,7 +53,7 @@ td:nth-child(1):not(.schedule){
 td:nth-child(1) {
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
-    padding:10px;
+    padding-left:10px;
 }
 
 /*Rounds corner of date (TBD) area for table row*/

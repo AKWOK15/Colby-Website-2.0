@@ -1,8 +1,13 @@
 
 .roster{
-
     overflow-x: scroll;
+    width: 70%;
+    margin: 5vh 15%;
 }
+/* table{
+    border-collapse: collapse;
+    width: 100%;
+} */
 .roster-year{
     border-radius: 2px;
     padding:5px;
@@ -20,5 +25,6 @@
     background-color: var(--grey);
 }
 td{
-    white-space: nowrap
+    white-space: nowrap;
+    padding-right: 40px;
 }
