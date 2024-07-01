@@ -7,7 +7,7 @@ function Roster() {
     useEffect(() => {
         async function getRoster() {
             try {
-                const response = await fetch(`https://colbyclubhockey.netlify.app/.netlify/functions/getroster?year=${rosterYear}`, {
+                const response = await fetch(`https://colbyclubhockey.com/.netlify/functions/getroster?year=${rosterYear}`, {
                     method: "GET",
                     headers: {
                         'Content-Type': 'application/json',
