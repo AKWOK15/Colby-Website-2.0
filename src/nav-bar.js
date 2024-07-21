@@ -12,7 +12,7 @@ function NavBar() {
     window.addEventListener('resize', handleResize);
     return (
         <div className="nav-bar">
-            <img className="colby-logo" src={logo}></img>
+            <img className="colby-logo" src={logo} alt='Colby College Club Hockey Logo'></img>
             {screenWidth > 1000 ? (
                 <div className='options'>
                     <a href="#About" className="nav-link">ABOUT</a>
