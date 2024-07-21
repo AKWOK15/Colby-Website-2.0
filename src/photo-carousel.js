@@ -20,7 +20,7 @@ function PhotoCarousel(){
     }, 5000);
     return(
         <div className = 'carousel'>
-            <img className="image" src={currentPhoto}></img>
+            <img className="image" src={currentPhoto} alt='Colby Club Hockey Action Shot'></img>
         </div>
     )
 }

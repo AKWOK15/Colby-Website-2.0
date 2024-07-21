@@ -23,7 +23,7 @@ function Schedule() {
     function game(logo, homeAway, opponent, date, score) {
         return (
             <tr className='row'>
-                <td><img className='schedule-logo' src={logo} /></td>
+                <td><img className='schedule-logo' src={logo} alt={'${opponent} Logo'}/></td>
                 <td><span className={homeAway}>{homeAway}</span> {opponent}</td>
                 <td>{date}</td>
                 <td className={score.charAt(0) == 'W' ? 'win' : score.charAt(0) == 'L' ? 'loss' : ''}>{score}</td>
