@@ -15,13 +15,33 @@ import saintvincent from './images/saintvincent.png';
 import lawrencetech from './images/lawrencetech.png';
 function Schedule() {
     //add wins, losses, etc once database table is set up
+    const [schedule, setSchedule] = useState();
+    const [scheduleYear, setScheduleYear] = useState("2023")
     const [scroll, setScroll] = useState(window.scrollY);
     const handleScroll = () => {
         setScroll(window.scrollY);
     }
-    // useEffect(() => {
-    //     console.log(scroll);
-    // }, [scroll]);
+    useEffect(() => {
+        async function getSchedule() {
+            try {
+                const response = await fetch(`https://colbyclubhockey.com/.netlify/functions/getschedule?year=${rosterYear}`, {
+                    method: "GET",
+                    headers: {
+                        'Content-Type': 'application/json',
+                    }
+                });
+                if (response.ok) {
+                    const data = await response.json();
+                    setSchedule(data);
+                }
+            }
+            catch (error) {
+                console.error('Schedule could not be loaded', error);
+            }
+        }
+        getSchedule();
+    }, [scheduleYear])
+
     window.addEventListener('scroll', handleScroll);
     function game(logo, homeAway, opponent, date, score) {
         return (
@@ -33,16 +53,27 @@ function Schedule() {
             </tr>
         )
     }
+    const handleChange = (event)=>{
+        setScheduleYear(event.target.value);
+    }
+
     return (
         <>
             <header id='Schedule' className='section-header'>Schedule</header>
             <div className='background-container'>
                 <img src={frontRink} className={scroll < 3500 ? (scroll > 1600 ? 'image background active' : 'image background') : 'image background'} />
             </div>
+            <select className="dropdown" onChange={handleChange} value = {scheduleYear}>
+                <option value="2024">2024 - 2025</option>
+                <option value= "2023">2023 - 2024</option>
+            </select>
             <div className='schedule'>
                 <table>
                     <tbody>
-                        {game(dartmouth, 'vs', 'Dartmouth College', 'Oct 15/ 12 pm', 'T 3-3')}
+                        {schedule? Object.entries(schedule).map(([id, opponent])=>{
+                            return game(opponent['logofile'], opponent['location'], opponent['name'], opponent['date'], opponent['score']);
+                        }):null}
+                        {/* {game(dartmouth, 'vs', 'Dartmouth College', 'Oct 15/ 12 pm', 'T 3-3')}
                         {game(une, 'vs', 'University of New England', 'Oct 22/ 2 pm', 'W 12-2')}
                         {game(wpi, 'vs', 'Worcester Polytechnic Institute', 'Oct 29/ 2 pm', 'W 3-2')}
                         {game(thomas, 'vs', 'Thomas College', 'Nov 2/ 8:30 pm', 'W 16-2')}
@@ -60,7 +91,7 @@ function Schedule() {
                         {game(bates, 'vs', 'Bates College', 'Feb 9/ 7 pm', 'W 5-0')}
                         {game(arkansas, 'vs', 'University of Arkansas', 'Mar 7/ 2pm', 'L 4-6')}
                         {game(lawrencetech, 'vs', 'Lawrence Tech', 'March 8. 5 pm', 'L 2-5')}
-                        {game(saintvincent, 'vs', 'Saint Vincent College', 'March 9/ 11 am', 'L 5-9')}
+                        {game(saintvincent, 'vs', 'Saint Vincent College', 'March 9/ 11 am', 'L 5-9')} */}
 
                     </tbody>
                 </table>
