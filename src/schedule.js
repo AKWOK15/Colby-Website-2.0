@@ -61,7 +61,7 @@ function Schedule() {
         return (
             <tr className='row'>
                 <td><img className='schedule-logo' src={logo} alt={`${opponent} Logo`}/></td>
-                {homeAway == 'nationals'? <td><img src={acha2024}></img></td> : <td><span className={homeAway}>{homeAway}</span> {opponent}</td>}
+                {homeAway == 'nationals'? <td><img className='schedule-logo' src={acha2024}></img></td> : <td><span className={homeAway}>{homeAway}</span> {opponent}</td>}
                 <td>{date}</td>
                 <td className={score.charAt(0) == 'W' ? 'win' : score.charAt(0) == 'L' ? 'loss' : ''}>{score}</td>
             </tr>
