@@ -24,7 +24,7 @@ function Schedule() {
     useEffect(() => {
         async function getSchedule() {
             try {
-                const response = await fetch(`https://colbyclubhockey.com/.netlify/functions/getschedule?year=${rosterYear}`, {
+                const response = await fetch(`https://colbyclubhockey.com/.netlify/functions/getschedule?year=${scheduleYear}`, {
                     method: "GET",
                     headers: {
                         'Content-Type': 'application/json',
