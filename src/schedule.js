@@ -18,6 +18,19 @@ function Schedule() {
     const [schedule, setSchedule] = useState();
     const [scheduleYear, setScheduleYear] = useState("2023")
     const [scroll, setScroll] = useState(window.scrollY);
+    const image = {
+        'bates':bates,
+        'cmcc': cmcc,
+        'dartmouth': dartmouth,
+        'sjc': sjc,
+        'thomas': thomas,
+        'une': une,
+        'wit': wit,
+        'wpi': wpi,
+        'arkansas': arkansas,
+        'saintvincent': saintvincent,
+        'lawrencetech': lawrencetech,
+    };
     const handleScroll = () => {
         setScroll(window.scrollY);
     }
@@ -71,7 +84,7 @@ function Schedule() {
                 <table>
                     <tbody>
                         {schedule? Object.entries(schedule).map(([id, opponent])=>{
-                            return game(opponent['logofile'], opponent['location'], opponent['name'], opponent['date'], opponent['score']);
+                            return game(image[opponent['logofile']], opponent['location'], opponent['name'], opponent['date'], opponent['score']);
                         }):null}
                         {/* {game(dartmouth, 'vs', 'Dartmouth College', 'Oct 15/ 12 pm', 'T 3-3')}
                         {game(une, 'vs', 'University of New England', 'Oct 22/ 2 pm', 'W 12-2')}
