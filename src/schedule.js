@@ -2,35 +2,35 @@ import './schedule.css'
 import './table.css'
 import { useState, useEffect } from 'react';
 import frontRink from './images/frontrink.jpg';
-// import bates from './images/bates.svg';
-// import cmcc from './images/cmcc.png';
-// import dartmouth from './images/dartmouth.png';
-// import sjc from './images/sjc.png';
-// import thomas from './images/thomas.png';
-// import une from './images/une.png';
-// import wit from './images/wit.svg';
-// import wpi from './images/wpi.png';
-// import arkansas from './images/arkansas.png';
-// import saintvincent from './images/saintvincent.png';
-// import lawrencetech from './images/lawrencetech.png';
+import bates from './images/bates.png';
+import cmcc from './images/cmcc.png';
+import dartmouth from './images/dartmouth.png';
+import sjc from './images/sjc.png';
+import thomas from './images/thomas.png';
+import une from './images/une.png';
+import wit from './images/wit.png';
+import wpi from './images/wpi.png';
+import arkansas from './images/arkansas.png';
+import saintvincent from './images/saintvincent.png';
+import lawrencetech from './images/lawrencetech.png';
 function Schedule() {
     //add wins, losses, etc once database table is set up
     const [schedule, setSchedule] = useState();
     const [scheduleYear, setScheduleYear] = useState("2023")
     const [scroll, setScroll] = useState(window.scrollY);
-    // const image = {
-    //     'bates':bates,
-    //     'cmcc': cmcc,
-    //     'dartmouth': dartmouth,
-    //     'sjc': sjc,
-    //     'thomas': thomas,
-    //     'une': une,
-    //     'wit': wit,
-    //     'wpi': wpi,
-    //     'arkansas': arkansas,
-    //     'saintvincent': saintvincent,
-    //     'lawrencetech': lawrencetech,
-    // };
+    const image = {
+        'bates':bates,
+        'cmcc': cmcc,
+        'dartmouth': dartmouth,
+        'sjc': sjc,
+        'thomas': thomas,
+        'une': une,
+        'wit': wit,
+        'wpi': wpi,
+        'arkansas': arkansas,
+        'saintvincent': saintvincent,
+        'lawrencetech': lawrencetech,
+    };
     const handleScroll = () => {
         setScroll(window.scrollY);
     }
@@ -84,8 +84,7 @@ function Schedule() {
                 <table>
                     <tbody>
                         {schedule? Object.entries(schedule).map(([id, opponent])=>{
-                            const imagePath = require(`/images/bates.png`);
-                            return game(imagePath, opponent['location'], opponent['name'], opponent['date'], opponent['score']);
+                            return game(image[opponent['logofile']], opponent['location'], opponent['name'], opponent['date'], opponent['score']);
                         }):null}
                         {/* {game(dartmouth, 'vs', 'Dartmouth College', 'Oct 15/ 12 pm', 'T 3-3')}
                         {game(une, 'vs', 'University of New England', 'Oct 22/ 2 pm', 'W 12-2')}
