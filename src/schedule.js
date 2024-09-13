@@ -10,6 +10,9 @@ import thomas from './images/thomas.png';
 import une from './images/une.png';
 import wit from './images/wit.svg';
 import wpi from './images/wpi.png';
+import arkansas from './images/arkansas.png';
+import saintvincent from './images/saintvincent.png';
+import lawrencetech from './images/lawrencetech.png';
 function Schedule() {
     //add wins, losses, etc once database table is set up
     const [scroll, setScroll] = useState(window.scrollY);
@@ -55,6 +58,9 @@ function Schedule() {
                         {game(wit, 'vs', 'Wentworth Institute of Technology', 'Jan 28/ 2 pm', 'W 6-1')}
                         {game(thomas, 'vs', 'Thomas College', 'Nov 2/ 8:30 pm', 'W 4-1')}
                         {game(bates, 'vs', 'Bates College', 'Feb 9/ 7 pm', 'W 5-0')}
+                        {game(arkansas, 'vs', 'University of Arkansas', 'Mar 7/ 2pm', 'L 4-6')}
+                        {game(lawrencetech, 'vs', 'Lawrence Tech', 'March 8. 5 pm', 'L 2-5')}
+                        {game(saintvincent, 'vs', 'Saint Vincent College', 'March 9/ 11 am', 'L 5-9')}
 
                     </tbody>
                 </table>
