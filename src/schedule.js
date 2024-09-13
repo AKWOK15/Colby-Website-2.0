@@ -84,7 +84,8 @@ function Schedule() {
                 <table>
                     <tbody>
                         {schedule? Object.entries(schedule).map(([id, opponent])=>{
-                            return game(`/images/${opponent['logofile']}.png`, opponent['location'], opponent['name'], opponent['date'], opponent['score']);
+                            const imagePath = require(`/images/${opponent['logofile']}.png`);
+                            return game(imagePath, opponent['location'], opponent['name'], opponent['date'], opponent['score']);
                         }):null}
                         {/* {game(dartmouth, 'vs', 'Dartmouth College', 'Oct 15/ 12 pm', 'T 3-3')}
                         {game(une, 'vs', 'University of New England', 'Oct 22/ 2 pm', 'W 12-2')}
