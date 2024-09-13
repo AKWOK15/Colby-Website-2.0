@@ -18,19 +18,19 @@ function Schedule() {
     const [schedule, setSchedule] = useState();
     const [scheduleYear, setScheduleYear] = useState("2023")
     const [scroll, setScroll] = useState(window.scrollY);
-    const image = {
-        'bates':bates,
-        'cmcc': cmcc,
-        'dartmouth': dartmouth,
-        'sjc': sjc,
-        'thomas': thomas,
-        'une': une,
-        'wit': wit,
-        'wpi': wpi,
-        'arkansas': arkansas,
-        'saintvincent': saintvincent,
-        'lawrencetech': lawrencetech,
-    };
+    // const image = {
+    //     'bates':bates,
+    //     'cmcc': cmcc,
+    //     'dartmouth': dartmouth,
+    //     'sjc': sjc,
+    //     'thomas': thomas,
+    //     'une': une,
+    //     'wit': wit,
+    //     'wpi': wpi,
+    //     'arkansas': arkansas,
+    //     'saintvincent': saintvincent,
+    //     'lawrencetech': lawrencetech,
+    // };
     const handleScroll = () => {
         setScroll(window.scrollY);
     }
