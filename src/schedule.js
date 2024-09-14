@@ -36,6 +36,10 @@ function Schedule() {
         'arkansas': arkansas,
         'saintvincent': saintvincent,
         'lawrencetech': lawrencetech,
+        'umass': umass,
+        'curry': curry,
+        'unh': unh,
+        'um': um
     };
     const handleScroll = () => {
         setScroll(window.scrollY);
@@ -79,10 +83,10 @@ function Schedule() {
 
     return (
         <>
-            <header id='Schedule' className='section-header'>Schedule</header>
             <div className='background-container'>
                 <img src={frontRink} className={scroll < 3500 ? (scroll > 1600 ? 'image background active' : 'image background') : 'image background'} />
             </div>
+            <header id='Schedule' className='section-header'>Schedule</header>
             <select className="dropdown" onChange={handleChange} value = {scheduleYear}>
                 <option value="2024">2024 - 2025</option>
                 <option value= "2023">2023 - 2024</option>
