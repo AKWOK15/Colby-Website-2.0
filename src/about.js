@@ -1,10 +1,7 @@
 import './about.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHockeyPuck } from '@fortawesome/free-solid-svg-icons'
-import PhotoCarousel from './photo-carousel';
 import rink from './images/siderink.jpg';
-import carousel0 from './images/carousel0.jpg';
-import main from './images/main.png';
+import huddle from './images/huddle.jpg';
+
 function About() {
   return (
     <div>
@@ -12,7 +9,7 @@ function About() {
       <div className='about'>
         <div className="about-item">
           <div>
-            <img src={carousel0} className='image' alt='Colby Club Hockey Team Huddle'></img>
+            <img src={huddle} className='image' alt='Colby Club Hockey Team Huddle'></img>
             <p>
               In 2020, Colby Club Hockey joined the American Collegiate Hockey Association (ACHA), and in 2021, we joined the Northeast Collegiate Hockey Association (NECHA), a division of the ACHA.
             </p>

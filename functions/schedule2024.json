@@ -1,5 +1,12 @@
 [
     {
+        "logofile": "une",
+        "location": "at",
+        "opponent": "University of New England",
+        "date": "Oct 19, 7 pm",
+        "score": ""
+    },
+    {
         "logofile": "unh",
         "location": "at",
         "opponent": "University of New Hampshire",
@@ -72,7 +79,7 @@
     {
         "logofile": "bates",
         "location": "vs",
-        "opponent": "Bates",
+        "opponent": "Bates College",
         "date": "Dec 8, 2 pm",
         "score": ""
     },
@@ -93,7 +100,7 @@
     {
         "logofile": "bates",
         "location": "at",
-        "opponent": "Bates",
+        "opponent": "Bates College",
         "date": "Feb 7, 7 pm",
         "score": ""
     },

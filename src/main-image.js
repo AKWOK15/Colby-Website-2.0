@@ -1,5 +1,4 @@
-import main from './images/main.png';
-import carousel0 from './images/carousel0.jpg';
+import main from './images/goalline.png';
 import './main-image.css';
 function MainImage(){
  return(
