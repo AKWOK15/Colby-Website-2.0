@@ -95,7 +95,7 @@ function Schedule() {
                 <table>
                     <tbody>
                         {schedule? Object.entries(schedule).map(([id, opponent])=>{
-                            return game(image[opponent['logofile']], opponent['location'], opponent['name'], opponent['date'], opponent['score']);
+                            return game(image[opponent['logofile']], opponent['location'], opponent['opponent'], opponent['date'], opponent['score']);
                         }):null}
 
                     </tbody>
