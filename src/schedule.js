@@ -22,7 +22,7 @@ import acha2024 from './images/acha2024.png';
 function Schedule() {
     //add wins, losses, etc once database table is set up
     const [schedule, setSchedule] = useState();
-    const [scheduleYear, setScheduleYear] = useState("2023")
+    const [scheduleYear, setScheduleYear] = useState("2024")
     const [scroll, setScroll] = useState(window.scrollY);
     const image = {
         'bates':bates,
