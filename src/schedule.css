@@ -2,7 +2,9 @@
     background-image:url('mitch.png');
 } */
 /*Table for schedule*/
-
+.center{
+    text-align:center;
+}
 .background{
     z-index:-1;
     position:absolute;
@@ -50,4 +52,8 @@
     max-height: 8vh;
     object-fit: fill;
 
+}
+.nationals-logo{
+    max-width: 4vh;
+    max-height: 4vh;
 }

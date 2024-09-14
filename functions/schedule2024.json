@@ -1,0 +1,107 @@
+[
+    {
+        "logofile": "unh",
+        "location": "at",
+        "opponent": "University of New Hampshire",
+        "date": "Oct 20, 3 pm",
+        "score": ""
+    },
+    {
+        "logofile": "cmcc",
+        "location": "at",
+        "opponent": "Central Maine Community College",
+        "date": "Oct 24, 8:30 pm",
+        "score": ""
+    },
+    {
+        "logofile": "une",
+        "location": "vs",
+        "opponent": "University of New England",
+        "date": "Oct 27, 2 pm",
+        "score": ""
+    },
+    {
+        "logofile": "um",
+        "location": "at",
+        "opponent": "University of Maine",
+        "date": "Oct 28, 7:15 pm",
+        "score": ""
+    },
+    {
+        "logofile": "thomas",
+        "location": "vs",
+        "opponent": "Thomas College",
+        "date": "Nov 7, 8 pm",
+        "score": ""
+    },
+    {
+        "logofile": "dartmouth",
+        "location": "at",
+        "opponent": "Dartmouth College",
+        "date": "Nov 9, 5:30 pm",
+        "score": ""
+    },
+    {
+        "logofile": "wpi",
+        "location": "vs",
+        "opponent": "Worcester Polytechnic Institute",
+        "date": "Nov 10, 2 pm",
+        "score": ""
+    },
+    {
+        "logofile": "umass",
+        "location": "vs",
+        "opponent": "University of Massachusetts",
+        "date": "Nov 14, 8:30 pm",
+        "score": ""
+    },
+    {
+        "logofile": "cmcc",
+        "location": "vs",
+        "opponent": "Central Maine Community College",
+        "date": "Nov 17, 2 pm",
+        "score": ""
+    },
+    {
+        "logofile": "thomas",
+        "location": "at",
+        "opponent": "Thomas College",
+        "date": "Dec 5, 8 pm",
+        "score": ""
+    },
+    {
+        "logofile": "bates",
+        "location": "vs",
+        "opponent": "Bates",
+        "date": "Dec 8, 2 pm",
+        "score": ""
+    },
+    {
+        "logofile": "curry",
+        "location": "vs",
+        "opponent": "Curry College",
+        "date": "Jan 26, 2 pm",
+        "score": ""
+    },
+    {
+        "logofile": "thomas",
+        "location": "vs",
+        "opponent": "Thomas College",
+        "date": "Feb 6, 8 pm",
+        "score": ""
+    },
+    {
+        "logofile": "bates",
+        "location": "at",
+        "opponent": "Bates",
+        "date": "Feb 7, 7 pm",
+        "score": ""
+    },
+    {
+        "logofile": "dartmouth",
+        "location": "vs",
+        "opponent": "Dartmouth College",
+        "date": "Feb 9, 2 pm",
+        "score": ""
+    }
+]

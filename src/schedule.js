@@ -13,6 +13,11 @@ import wpi from './images/wpi.png';
 import arkansas from './images/arkansas.png';
 import saintvincent from './images/saintvincent.png';
 import lawrencetech from './images/lawrencetech.png';
+import umass from './images/umass.png';
+import curry from './images/curry.png';
+import um from './images/um.png';
+import unh from './images/unh.png';
+
 import acha2024 from './images/acha2024.png';
 function Schedule() {
     //add wins, losses, etc once database table is set up
@@ -61,7 +66,8 @@ function Schedule() {
         return (
             <tr className='row'>
                 <td><img className='schedule-logo' src={logo} alt={`${opponent} Logo`}/></td>
-                {homeAway == 'nationals'? <td><img className='schedule-logo' src={acha2024}></img></td> : <td><span className={homeAway}>{homeAway}</span> {opponent}</td>}
+                <td className='center'>{homeAway == 'nationals'? <img className='schedule-logo' src={acha2024}></img> : <span className={homeAway}>{homeAway}</span> }</td>
+                <td>{opponent}</td>
                 <td>{date}</td>
                 <td className={score.charAt(0) == 'W' ? 'win' : score.charAt(0) == 'L' ? 'loss' : ''}>{score}</td>
             </tr>
