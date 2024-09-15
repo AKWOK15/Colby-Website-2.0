@@ -18,6 +18,7 @@ import curry from './images/curry.png';
 import um from './images/um.png';
 import unh from './images/unh.png';
 
+
 import acha2024 from './images/acha2024.png';
 function Schedule() {
     //add wins, losses, etc once database table is set up

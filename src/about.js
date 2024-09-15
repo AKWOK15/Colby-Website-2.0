@@ -11,7 +11,7 @@ function About() {
           <div>
             <img src={huddle} className='image' alt='Colby Club Hockey Team Huddle'></img>
             <p>
-              In 2020, Colby Club Hockey joined the American Collegiate Hockey Association (ACHA), and in 2021, we joined the Northeast Collegiate Hockey Association (NECHA), a division of the ACHA.
+              In 2020, Colby Club Hockey joined the American Collegiate Hockey Association (ACHA), and in 2021, we joined the Northeast Collegiate Hockey Association (NECHA), a division of the ACHA. In just our second full season, we qualified for the ACHA National Championships in St. Louis. 
             </p>
             <p>
               Our student leadership team runs all club operations, including game scheduling, budget allocation/distribution, and team events. Meanwhile, our coaching staff focuses on player development and team success.

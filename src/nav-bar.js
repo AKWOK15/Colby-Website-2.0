@@ -1,6 +1,6 @@
+// as long as css file is imported in any file, it will work globally, if not imported, css won't be applied
 import './nav-bar.css'
-import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import {useState} from 'react';
 import Hamburger from './hamburger';
 import logo from './images/colby.png'
 // import { useNavigate } from 'react-router-dom';

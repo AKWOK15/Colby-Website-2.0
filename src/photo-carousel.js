@@ -1,5 +1,5 @@
 import './photo-carousel.css';
-import { useState, useEffect, useRef, useReducer, useCallback } from 'react';
+import { useState} from 'react';
 import carousel3 from './images/pete.jpg';
 import carousel1 from './images/chipgoal.jpg';
 import carousel2 from './images/scullygoal.jpg';

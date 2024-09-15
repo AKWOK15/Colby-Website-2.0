@@ -1,5 +1,5 @@
 import './contact-us.css';
-import { useState, useEffect, useRef, useReducer, useCallback } from 'react';
+import { useState, useEffect} from 'react';
 function ContactUs() {
     //saves info for contact us form if user refreshes page
     const useStorageState = (key, initialState) => {
@@ -36,7 +36,7 @@ function ContactUs() {
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({ "form-name": "contact", name, email, message})
         })
-            .then(() => alert("Success!"))
+            .then(() => alert("Thanks for contacting us! We'll get back to you within 48 hours."))
             .catch(error => alert(error));
 
     };

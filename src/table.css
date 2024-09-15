@@ -30,3 +30,17 @@ td:nth-child(4) {
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }
+/*for drop down menu*/
+.dropdown{
+    border-radius: 2px;
+    padding:5px;
+    font-size:1.05rem;
+    width:auto;
+    margin: 0 15% 10px 15%;
+    border:none;
+    background-color: var(--light-grey);
+    color:var(--grey);
+}
+.dropdown:hover{
+    background-color: var(--grey);
+}
