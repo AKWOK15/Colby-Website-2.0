@@ -1,5 +1,6 @@
 import './table.css';
-import './roster.css';
+//technically already imported in schedule.js, but this is where css styling for className = schedule-rsoter comes from
+import './schedule.css';
 import {useState, useEffect } from 'react';
 function Roster() {
     const [roster, setRoster] = useState();
@@ -48,7 +49,7 @@ function Roster() {
                 <option value= "2023">2023 - 2024</option>
                 <option value="2022">2022 - 2023</option>
             </select>
-            <div className='roster'>
+            <div className='schedule-roster'>
                 <table className='player-table'>
                     <tbody> 
                         {info('Player', '#', 'Pos', 'Ht', 'Wt', 'Sh', 'Birthplace')}

@@ -2,8 +2,8 @@
   --primary: #002877;
   --secondary: #F9FAFB;
   --light-grey: #D7D2CB;
-  --grey: #707682;
-  --darker-grey: #646a75;
+  --grey: #C0BBB3;
+  --darker-grey: #5A606A;
   --highlight: #f8bd0d ;
   --hover-highlight: #e6be00;
   --green:  #2E8B57;
@@ -17,6 +17,7 @@
 }
 *{
   box-sizing:border-box;
+  color:var(--darker-grey);
 }
 body {
   margin: 0;

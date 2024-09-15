@@ -21,11 +21,10 @@
     top:12vh;
     left:0;
 }
-.schedule {
+.schedule-roster {
     overflow-x: scroll;
     width: 70%;
-    margin: 0 15%;
-    /*Gets rid of extra space between td*/
+    margin: 5vh 15%;
           
 }
 
@@ -37,7 +36,7 @@
 }
 .at {
     font-size: 0.7em;
-    background-color: var(--grey);
+    background-color: var(--darker-grey);
     color:white;
     padding: 0 4px;
 }

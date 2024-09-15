@@ -92,9 +92,11 @@ function Schedule() {
                 <option value="2024">2024 - 2025</option>
                 <option value= "2023">2023 - 2024</option>
             </select>
-            <div className='schedule'>
+            <div className='schedule-roster'>
                 <table>
                     <tbody>
+                    {/* {game('unelogo.png', 'at', 'University of New England', 'Jan 27/ 3 pm', 'W 9-1')}
+                    {game('unelogo.png', 'at', 'University of New England', 'Jan 27/ 3 pm', 'W 9-1')} */}
                         {schedule? Object.entries(schedule).map(([id, opponent])=>{
                             return game(image[opponent['logofile']], opponent['location'], opponent['opponent'], opponent['date'], opponent['score']);
                         }):null}

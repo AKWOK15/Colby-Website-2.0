@@ -25,7 +25,7 @@
     justify-content:start;
     align-content:center;
     font-size:1.1em;
-    color:var(--grey);
+    /* color:var(--darker-grey); */
     margin-right:3%;
     margin-left:3%;
 }

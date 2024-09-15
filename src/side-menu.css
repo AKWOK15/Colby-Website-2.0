@@ -4,7 +4,6 @@
     left:0;
     /* top: -50vh; */
     top: 12vh;
-    /* background-color:var(--light-grey); */
     background-color:var(--secondary);
     display:flex;
     flex-direction:column;

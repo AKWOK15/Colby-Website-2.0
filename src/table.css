@@ -39,7 +39,7 @@ td:nth-child(4) {
     margin: 0 15% 10px 15%;
     border:none;
     background-color: var(--light-grey);
-    color:var(--grey);
+    color:var(--darker-grey);
 }
 .dropdown:hover{
     background-color: var(--grey);
