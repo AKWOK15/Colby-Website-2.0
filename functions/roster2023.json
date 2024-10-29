@@ -6,7 +6,7 @@
       "height": "5-10",
       "weight": "180",
       "hand": "R",
-      "town": "Barrington, RI"
+      "town": "Waterville, ME"
     },
     {
       "name": "Gabrielle Anusbigian",
@@ -15,7 +15,7 @@
       "height": "5-2",
       "weight": "110",
       "hand": "R",
-      "town": "Grosse Pointe Farms, MI"
+      "town": "MI"
     },
     {
       "name": "Julia Maimonis",
@@ -33,7 +33,7 @@
       "height": "5-8",
       "weight": "185",
       "hand": "L",
-      "town": "Cypress, CA"
+      "town": "Waterville, ME"
     },
     {
       "name": "Peter Nelson",
@@ -42,7 +42,7 @@
       "height": "6-3",
       "weight": "185",
       "hand": "L",
-      "town": "Carlisle, MA"
+      "town": "Concord, MA"
     },
     {
       "name": "Woody Reichelt",
@@ -159,7 +159,7 @@
         "height": "5-8",
         "weight": "140",
         "hand": "R",
-        "town": "Chicago, IL"
+        "town": "IL"
       },
       {
         "name": "Dov Shore",
@@ -177,7 +177,7 @@
         "height": "5-9",
         "weight": "165",
         "hand": "R",
-        "town": "Milwaukee, WI"
+        "town": "WI"
       },
       {
         "name": "Aidan Kwok",
