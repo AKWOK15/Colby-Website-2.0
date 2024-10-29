@@ -6,7 +6,7 @@
       "height": "5-10",
       "weight": "180",
       "hand": "R",
-      "town": "Waterville, ME"
+      "town": "Barrington, RI"
     },
     {
       "name": "Gabrielle Anusbigian",
@@ -18,13 +18,13 @@
       "town": "Grosse Pointe Farms, MI"
     },
     {
-      "name": "Julia Maimonis",
-      "number": "1",
+      "name": "John Bloomer",
+      "number": "11",
       "position": "F",
-      "height": "5-7",
-      "weight": "145",
-      "hand": "R",
-      "town": "Lexington, MA"
+      "height": "5-8",
+      "weight": "180",
+      "hand": "L",
+      "town": "Chicago, IL"
     },
     {
       "name": "Naoya Miyata",
@@ -42,16 +42,16 @@
       "height": "6-3",
       "weight": "185",
       "hand": "L",
-      "town": "Concord, MA"
+      "town": "Carlisle, MA"
     },
     {
-      "name": "Woody Reichelt",
+      "name": "Andres Ramos",
       "number": "1",
       "position": "F",
-      "height": "5-9",
-      "weight": "160",
-      "hand": "R",
-      "town": "Stowe, VT"
+      "height": "6-2",
+      "weight": "175",
+      "hand": "L",
+      "town": "New York, NY"
     },
     {
       "name": "James Reilly",
@@ -72,13 +72,13 @@
       "town": "New York, NY"
     },
     {
-      "name": "Preston Lee",
-      "number": "2",
+      "name": "Connor Roach",
+      "number": "1",
       "position": "F",
-      "height": "6-0",
-      "weight": "200",
+      "height": "6-2",
+      "weight": "195",
       "hand": "R",
-      "town": "Fair Haven, NJ"
+      "town": "Boca Raton, FL"
     },
     {
       "name": "Ryan Harper",
@@ -99,22 +99,13 @@
       "town": "Madison, WI"
     },
     {
-      "name": "John Bloomer",
-      "number": "11",
-      "position": "F",
-      "height": "5-8",
-      "weight": "180",
-      "hand": "L",
-      "town": "Chicago, IL"
-    },
-    {
       "name": "Bear Brooks",
       "number": "12",
       "position": "F",
       "height": "5-10",
       "weight": "150",
       "hand": "R",
-      "town": "Santa Monica, CA"
+      "town": "Newbury, MA"
     },
     {
       "name": "Spencer Lee",
@@ -130,7 +121,7 @@
       "number": "24",
       "position": "F",
       "height": "5-9",
-      "weight": "155",
+      "weight": "160",
       "hand": "L",
       "town": "Falmouth, ME"
     },
@@ -144,13 +135,31 @@
       "town": "Lake Placid, NY"
     },
     {
-      "name": "Trevor Mathewson",
-      "number": "29",
+      "name": "Brendan Keogh",
+      "number": "1",
       "position": "F",
-      "height": "5-8",
-      "weight": "170",
+      "height": "6-1",
+      "weight": "175",
       "hand": "L",
-      "town": "Waterville, ME"
+      "town": "New Canaan, CT"
+    },
+    {
+      "name": "Max Viera",
+      "number": "1",
+      "position": "F",
+      "height": "6-4",
+      "weight": "200",
+      "hand": "L",
+      "town": "Gloucester, MA"
+    },
+    {
+      "name": "Ewan Ward",
+      "number": "1",
+      "position": "F",
+      "height": "5-9",
+      "weight": "145",
+      "hand": "L",
+      "town": "Rye, NY"
     },
     {
         "name": "Noah Milsky",
@@ -216,13 +225,22 @@
         "town": "North Andover, MA"
       },
       {
-        "name": "Joshua Houle",
-        "number": "16",
+        "name": "Sawyer Dillon",
+        "number": "1",
+        "position": "D",
+        "height": "6-2",
+        "weight": "175",
+        "hand": "L",
+        "town": "Oldwick, NJ"
+      },
+      {
+        "name": "Alex Holmgren",
+        "number": "1",
         "position": "D",
         "height": "6-1",
-        "weight": "210",
+        "weight": "185",
         "hand": "R",
-        "town": "Douglas, MA"
+        "town": "St. Augustine, FL"
       },
       {
         "name": "Evan White",
@@ -234,22 +252,22 @@
         "town": "Ridgewood, NJ"
       },
       {
-        "name": "Peter Santeusanio",
+        "name": "Brady Blackburn",
         "number": "1",
         "position": "G",
-        "height": "5-8",
-        "weight": "150",
+        "height": "6-0",
+        "weight": "17-",
         "hand": "L",
-        "town": "Marblehead, MA"
+        "town": "Potomac, MD"
       },
       {
-        "name": "Cole Turner",
-        "number": "30",
+        "name": "Cooper Steinborn",
+        "number": "31",
         "position": "G",
-        "height": "5-7",
-        "weight": "150",
-        "hand": "L",
-        "town": "Waterville, ME"
+        "height": "5-11",
+        "weight": "160",
+        "hand": "R",
+        "town": "Lexington, MA"
       }
       ]
    
