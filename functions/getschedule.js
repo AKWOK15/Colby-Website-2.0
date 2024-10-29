@@ -4,8 +4,9 @@ const headers = {
 };
 const years = [2023, 2024];
 exports.handler = async (event) => {
-    if (years.includes(event.queryStringParameters.year)){
-           data = require(`./schedule${event.queryStringParameters.year}.json`);
+    if (years.includes(parseInt(event.queryStringParameters.year))){    
+        url = `./schedule${event.queryStringParameters.year}.json`;
+        data = require(url);
     }
     // else if(event.queryStringParameters.year==2024){
     //     data = require('./schedule2024.json');
