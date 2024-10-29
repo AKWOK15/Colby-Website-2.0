@@ -2,7 +2,7 @@ const headers = {
     'content-type' : 'application/json',
     'Access-Control-Allow-Origin': '*'
 };
-const years = [2023, 2024]
+const years = [2023, 2024];
 exports.handler = async (event) => {
     if (years.includes(event.queryStringParameters.year)){
            data = require(`./schedule${event.queryStringParameters.year}.json`);
