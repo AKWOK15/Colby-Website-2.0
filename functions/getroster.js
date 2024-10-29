@@ -3,7 +3,10 @@ const headers = {
     'Access-Control-Allow-Origin': '*'
 };
 exports.handler = async (event) => {
-    if (event.queryStringParameters.year==2023){
+    if (event.queryStringParameters.year==2024){
+        data = require('./roster2023.json');
+    }
+    else if (event.queryStringParameters.year==2023){
            data = require('./roster2023.json');
     }
     else if(event.queryStringParameters.year==2022){
