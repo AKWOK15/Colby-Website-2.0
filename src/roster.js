@@ -4,7 +4,7 @@ import './schedule.css';
 import {useState, useEffect } from 'react';
 function Roster() {
     const [roster, setRoster] = useState();
-    const [rosterYear, setRosterYear] = useState("2023")
+    const [rosterYear, setRosterYear] = useState("2024")
     useEffect(() => {
         async function getRoster() {
             try {
@@ -46,6 +46,7 @@ function Roster() {
         <>
             <header className='section-header' id='Roster'>Roster</header>
             <select className="dropdown" onChange={handleChange} value = {rosterYear}>
+                <option value= "2024">2024 - 2025</option>
                 <option value= "2023">2023 - 2024</option>
                 <option value="2022">2022 - 2023</option>
             </select>
