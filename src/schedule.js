@@ -17,7 +17,7 @@ import umass from './images/umass.png';
 import curry from './images/curry.png';
 import um from './images/um.png';
 import unh from './images/unh.png';
-
+import necha from './images/necha.png';
 
 import acha2024 from './images/acha2024.png';
 function Schedule() {
@@ -71,7 +71,15 @@ function Schedule() {
         return (
             <tr className='row'>
                 <td><img className='schedule-logo' src={logo} alt={`${opponent} Logo`}/></td>
-                <td className='center'>{homeAway == 'nationals'? <img className='schedule-logo' src={acha2024}></img> : <span className={homeAway}>{homeAway}</span> }</td>
+                <td className='center'>
+                {homeAway === 'nationals' ? (
+                    <img className='schedule-logo' src={acha2024} />
+                ) : homeAway === 'necha' ? (
+                    <img className='schedule-logo' src={necha} />
+                ) : (
+                    <span className={homeAway}>{homeAway}</span>
+                )}
+                </td>
                 <td>{opponent}</td>
                 <td>{date}</td>
                 <td className={score.charAt(0) == 'W' ? 'win' : score.charAt(0) == 'L' ? 'loss' : ''}>{score}</td>

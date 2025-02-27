@@ -77,6 +77,13 @@
         "score": "W 5-1"
     },
     {
+        "logofile": "bates",
+        "location": "at",
+        "opponent": "Bates College",
+        "date": "Jan 12, 1 pm",
+        "score": "W 4-1"
+    },
+    {
         "logofile": "une",
         "location": "at",
         "opponent": "University of New England",
@@ -84,31 +91,38 @@
         "score": "W 6-1"
     },
     {
-        "logofile": "curry",
-        "location": "vs",
-        "opponent": "Curry College",
-        "date": "Jan 26, 2 pm",
-        "score": ""
+        "logofile": "bates",
+        "location": "at",
+        "opponent": "Bates College",
+        "date": "Feb 7,  pm",
+        "score": "W 8-0"
+    },
+    {
+        "logofile": "dartmouth",
+        "location": "at",
+        "opponent": "Dartmouth College",
+        "date": "Forfeit",
+        "score": "W 1-0"
     },
     {
         "logofile": "thomas",
         "location": "vs",
         "opponent": "Thomas College",
-        "date": "Feb 6, 8 pm",
-        "score": ""
+        "date": "Feb 13, 8 pm",
+        "score": "W 5-0"
     },
     {
-        "logofile": "bates",
-        "location": "at",
-        "opponent": "Bates College",
-        "date": "Feb 7, 7 pm",
-        "score": ""
+        "logofile": "wpi",
+        "location": "necha",
+        "opponent": "Worcester Polytechnic Institute",
+        "date": "Feb 22, 2:50 pm",
+        "score": "W 5-3"
     },
     {
-        "logofile": "dartmouth",
-        "location": "vs",
-        "opponent": "Dartmouth College",
-        "date": "Feb 9, 2 pm",
-        "score": ""
+        "logofile": "cmcc",
+        "location": "necha",
+        "opponent": "Central Maine Community College",
+        "date": "Feb 23, 1 pm",
+        "score": "W 4-0"
     }
 ]
