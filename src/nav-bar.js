@@ -20,7 +20,8 @@ function NavBar() {
                     <a href="#Schedule" className="nav-link">SCHEDULE</a>
                     <a href="#Contact Us" className="nav-link">CONTACT US</a>
                     <a href='https://colbyathletics.com/sports/2021/11/17/giving-friends-of-recreation.aspx'><button className='nav-bar-button'>Donate</button></a>
-                    <a href='https://www.youtube.com/@ColbyRecreation'><button className='nav-bar-button'>Livestream</button></a>
+                    {/* <a href='https://www.youtube.com/@ColbyRecreation'><button className='nav-bar-button'>Livestream</button></a> */}
+                    <a href='https://www.flohockey.tv/collections/12842643-acha?view=live-and-upcoming'><button className='nav-bar-button'> Nationals Livestream</button></a>
                 </div>) :
                 <Hamburger />
             }
