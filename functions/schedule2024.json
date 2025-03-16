@@ -124,5 +124,26 @@
         "opponent": "Central Maine Community College",
         "date": "Feb 23, 1 pm",
         "score": "W 4-0"
+    },
+    {
+        "logofile": "cmcc",
+        "location": "nationals",
+        "opponent": "Central Maine Community College",
+        "date": "Mar 18, 11:15 am CDT",
+        "score": ""
+    },
+    {
+        "logofile": "mines",
+        "location": "nationals",
+        "opponent": "Colorado School of Mines",
+        "date": "Mar 19, 11:15 am CDT",
+        "score": ""
+    },
+    {
+        "logofile": "oakland",
+        "location": "nationals",
+        "opponent": "Oakland University",
+        "date": "Mar 20, 5:15 pm CDT",
+        "score": ""
     }
 ]
