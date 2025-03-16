@@ -19,7 +19,7 @@ import um from './images/um.png';
 import unh from './images/unh.png';
 import necha from './images/necha.png';
 import oakland from './images/oaklanduniversity.png';
-import mines from './images/coloradoschoolofmines.png';
+import mines from './images/coloradoschoolofmines.png'
 
 import acha2024 from './images/acha2024.png';
 function Schedule() {
@@ -42,7 +42,9 @@ function Schedule() {
         'umass': umass,
         'curry': curry,
         'unh': unh,
-        'um': um
+        'um': um,
+        'oakland': oakland,
+        'mines': mines
     };
     const handleScroll = () => {
         setScroll(window.scrollY);
