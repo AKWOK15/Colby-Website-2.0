@@ -1,7 +1,7 @@
 [
     {
       "name": "Aidan Aggarwal",
-      "number": "1",
+      "number": "",
       "position": "F",
       "height": "5-10",
       "weight": "180",
@@ -10,7 +10,7 @@
     },
     {
       "name": "Gabrielle Anusbigian",
-      "number": "1",
+      "number": "",
       "position": "F",
       "height": "5-2",
       "weight": "110",
@@ -19,7 +19,7 @@
     },
     {
       "name": "John Bloomer",
-      "number": "11",
+      "number": "2",
       "position": "F",
       "height": "5-8",
       "weight": "180",
@@ -28,7 +28,7 @@
     },
     {
       "name": "Naoya Miyata",
-      "number": "1",
+      "number": "3",
       "position": "F",
       "height": "5-8",
       "weight": "185",
@@ -37,7 +37,7 @@
     },
     {
       "name": "Peter Nelson",
-      "number": "1",
+      "number": "20",
       "position": "F",
       "height": "6-3",
       "weight": "185",
@@ -46,7 +46,7 @@
     },
     {
       "name": "Andres Ramos",
-      "number": "1",
+      "number": "4",
       "position": "F",
       "height": "6-2",
       "weight": "175",
@@ -55,7 +55,7 @@
     },
     {
       "name": "James Reilly",
-      "number": "1",
+      "number": "",
       "position": "F",
       "height": "5-10",
       "weight": "170",
@@ -64,7 +64,7 @@
     },
     {
       "name": "Ben Scully",
-      "number": "1",
+      "number": "19",
       "position": "F",
       "height": "5-10",
       "weight": "165",
@@ -73,7 +73,7 @@
     },
     {
       "name": "Connor Roach",
-      "number": "1",
+      "number": "21",
       "position": "F",
       "height": "6-2",
       "weight": "195",
@@ -82,7 +82,7 @@
     },
     {
       "name": "Ryan Harper",
-      "number": "4",
+      "number": "",
       "position": "F",
       "height": "5-8",
       "weight": "145",
@@ -91,7 +91,7 @@
     },
     {
       "name": "Thomas Moreau",
-      "number": "9",
+      "number": "",
       "position": "F",
       "height": "5-7",
       "weight": "170",
@@ -100,7 +100,7 @@
     },
     {
       "name": "Bear Brooks",
-      "number": "12",
+      "number": "9",
       "position": "F",
       "height": "5-10",
       "weight": "150",
@@ -136,7 +136,7 @@
     },
     {
       "name": "Brendan Keogh",
-      "number": "1",
+      "number": "",
       "position": "F",
       "height": "6-1",
       "weight": "175",
@@ -145,7 +145,7 @@
     },
     {
       "name": "Max Viera",
-      "number": "1",
+      "number": "",
       "position": "F",
       "height": "6-4",
       "weight": "200",
@@ -154,7 +154,7 @@
     },
     {
       "name": "Ewan Ward",
-      "number": "1",
+      "number": "12",
       "position": "F",
       "height": "5-9",
       "weight": "145",
@@ -163,7 +163,7 @@
     },
     {
         "name": "Noah Milsky",
-        "number": "1",
+        "number": "",
         "position": "D",
         "height": "5-8",
         "weight": "140",
@@ -172,7 +172,7 @@
       },
       {
         "name": "Dov Shore",
-        "number": "1",
+        "number": "16",
         "position": "D",
         "height": "6-2",
         "weight": "170",
@@ -181,7 +181,7 @@
       },
       {
         "name": "Henry Stone",
-        "number": "1",
+        "number": "8",
         "position": "D",
         "height": "5-9",
         "weight": "165",
@@ -190,7 +190,7 @@
       },
       {
         "name": "Aidan Kwok",
-        "number": "5",
+        "number": "",
         "position": "D",
         "height": "6-0",
         "weight": "190",
@@ -199,7 +199,7 @@
       },
       {
         "name": "Chip Strano",
-        "number": "6",
+        "number": "",
         "position": "D",
         "height": "5-9",
         "weight": "170",
@@ -226,7 +226,7 @@
       },
       {
         "name": "Sawyer Dillon",
-        "number": "1",
+        "number": "",
         "position": "D",
         "height": "6-2",
         "weight": "175",
@@ -235,7 +235,7 @@
       },
       {
         "name": "Alex Holmgren",
-        "number": "1",
+        "number": "",
         "position": "D",
         "height": "6-1",
         "weight": "185",
@@ -244,21 +244,12 @@
       },
       {
         "name": "Evan White",
-        "number": "1",
+        "number": "11",
         "position": "D",
         "height": "6-1",
         "weight": "185",
         "hand": "R",
         "town": "Ridgewood, NJ"
-      },
-      {
-        "name": "Brady Blackburn",
-        "number": "1",
-        "position": "G",
-        "height": "6-0",
-        "weight": "17-",
-        "hand": "L",
-        "town": "Potomac, MD"
       },
       {
         "name": "Cooper Steinborn",
